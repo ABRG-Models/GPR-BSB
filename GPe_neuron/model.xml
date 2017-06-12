@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LL:SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLNetworkLayer" xmlns:LL="http://www.shef.ac.uk/SpineMLLowLevelNetworkLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLLowLevelNetworkLayer SpineMLLowLevelNetworkLayer.xsd http://www.shef.ac.uk/SpineMLNetworkLayer SpineMLNetworkLayer.xsd" name="GPe neuron">
+    <LL:Population>
+        <LL:Annotation>
+            <SpineCreator>
+                <xPos value="4.05344"/>
+                <yPos value="1.51585"/>
+                <animSpeed value="0.2"/>
+                <aspectRatio value="1.66667"/>
+                <colour red="0" green="0" blue="254"/>
+                <size value="1"/>
+                <tag value="2"/>
+                <x3D value="0"/>
+                <y3D value="-7"/>
+                <z3D value="-6"/>
+                <is_visualised value="1"/>
+            </SpineCreator>
+        </LL:Annotation>
+        <LL:Neuron name="GPe" size="1" url="IzhiABCTFast.xml">
+            <Property name="aT" dimension="?">
+                <FixedValue value="0.005"/>
+            </Property>
+            <Property name="b" dimension="?">
+                <FixedValue value="0.585"/>
+            </Property>
+            <Property name="c" dimension="?">
+                <FixedValue value="-65"/>
+            </Property>
+            <Property name="d" dimension="?">
+                <FixedValue value="4"/>
+            </Property>
+            <Property name="Vpeak" dimension="?">
+                <FixedValue value="30"/>
+            </Property>
+            <Property name="AT" dimension="?">
+                <FixedValue value="0.04"/>
+            </Property>
+            <Property name="BT" dimension="?">
+                <FixedValue value="5"/>
+            </Property>
+            <Property name="CT" dimension="?">
+                <FixedValue value="142"/>
+            </Property>
+            <Property name="T" dimension="?">
+                <FixedValue value="1"/>
+            </Property>
+            <Property name="ToverSI" dimension="?">
+                <FixedValue value="1"/>
+            </Property>
+            <Property name="v" dimension="mV">
+                <FixedValue value="-70"/>
+            </Property>
+            <Property name="u" dimension="?">
+                <FixedValue value="-40.95"/>
+            </Property>
+        </LL:Neuron>
+        <Layout url="none.xml" seed="123" minimum_distance="6"/>
+    </LL:Population>
+</LL:SpineML>
