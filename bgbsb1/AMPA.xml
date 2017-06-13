@@ -11,20 +11,21 @@
     </TimeDerivative>
     <OnImpulse target_regime="Current" src_port="S">
      <StateAssignment variable="g_ampa">
-      <MathInline>g_bar</MathInline>
+      <MathInline>g_ampa + S * g_bar</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
    <Alias name="I_ampa" dimension="?">
     <MathInline>g_ampa*(E_ampa-v)</MathInline>
    </Alias>
-   <StateVariable name="g_ampa" dimension="?"/>
+   <StateVariable name="g_ampa" dimension="uS"/>
   </Dynamics>
   <AnalogReducePort name="v" reduce_op="+" dimension="mV"/>
   <AnalogSendPort name="I_ampa"/>
+  <AnalogSendPort name="g_ampa"/>
   <ImpulseReceivePort name="S" dimension="?"/>
   <Parameter name="tau_ampa" dimension="ms"/>
   <Parameter name="E_ampa" dimension="mV"/>
-  <Parameter name="g_bar" dimension="nS"/>
+  <Parameter name="g_bar" dimension="uS"/>
  </ComponentClass>
 </SpineML>

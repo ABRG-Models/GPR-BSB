@@ -11,20 +11,21 @@
     </TimeDerivative>
     <OnImpulse target_regime="Current" src_port="S">
      <StateAssignment variable="g_gaba">
-      <MathInline>g_bar</MathInline>
+      <MathInline>g_gaba + S * g_bar</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
    <Alias name="I_gaba" dimension="?">
-    <MathInline>g_gaba*(E_gaba-v)</MathInline>
+    <MathInline>g_gaba*(v-E_gaba)</MathInline>
    </Alias>
-   <StateVariable name="g_gaba" dimension="?"/>
+   <StateVariable name="g_gaba" dimension="uS"/>
   </Dynamics>
   <AnalogReducePort name="v" reduce_op="+" dimension="mV"/>
   <AnalogSendPort name="I_gaba"/>
+  <AnalogSendPort name="g_gaba"/>
   <ImpulseReceivePort name="S" dimension="?"/>
   <Parameter name="tau_gaba" dimension="ms"/>
   <Parameter name="E_gaba" dimension="mV"/>
-  <Parameter name="g_bar" dimension="nS"/>
+  <Parameter name="g_bar" dimension="uS"/>
  </ComponentClass>
 </SpineML>
