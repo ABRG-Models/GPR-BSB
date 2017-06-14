@@ -1568,12 +1568,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D1 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c1 to D1 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D1 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c1 to D1 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1628,12 +1628,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to FSI c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c1 to FSI c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to FSI c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c1 to FSI c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1688,12 +1688,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to STN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c1 to STN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to STN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c1 to STN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1748,12 +1748,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D2 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c1 to D2 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D2 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c1 to D2 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -3357,12 +3357,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D1 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c2 to D1 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D1 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c2 to D1 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -3417,12 +3417,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to FSI c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c2 to FSI c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to FSI c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c2 to FSI c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -3477,12 +3477,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to STN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c2 to STN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to STN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c2 to STN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -3537,12 +3537,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D2 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background c2 to D2 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D2 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background c2 to D2 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
