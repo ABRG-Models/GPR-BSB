@@ -59,10 +59,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="0.844043" y="2.92497"/>
+                    <start x="0.843533" y="2.92395"/>
                     <curves>
                         <curve>
-                            <C1 xpos="0.302613" ypos="3.15929"/>
+                            <C1 xpos="0.302103" ypos="3.15827"/>
                             <C2 xpos="0.423801" ypos="2.70777"/>
                             <end xpos="0.467424" ypos="1.66282"/>
                         </curve>
@@ -119,10 +119,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="2.51067" y="2.90828"/>
+                    <start x="2.51016" y="2.90726"/>
                     <curves>
                         <curve>
-                            <C1 xpos="3.13438" ypos="2.90257"/>
+                            <C1 xpos="3.13387" ypos="2.90155"/>
                             <C2 xpos="3.66953" ypos="2.57422"/>
                             <end xpos="3.68372" ypos="1.66181"/>
                         </curve>
@@ -179,10 +179,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="1.6985" y="2.66111"/>
+                    <start x="1.69799" y="2.66009"/>
                     <curves>
                         <curve>
-                            <C1 xpos="2.20919" ypos="-3.84491"/>
+                            <C1 xpos="2.20868" ypos="-3.84593"/>
                             <C2 xpos="5.9549" ypos="-0.644307"/>
                             <end xpos="7.01803" ypos="0.745466"/>
                         </curve>
@@ -219,8 +219,8 @@
                                 <start x="6.82924" y="0.745853"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="6.19658" ypos="0.190607"/>
-                                        <C2 xpos="6.42954" ypos="-0.0268833"/>
+                                        <C1 xpos="6.59668" ypos="0.562226"/>
+                                        <C2 xpos="6.83002" ypos="0.300597"/>
                                         <end xpos="7.01803" ypos="0.745466"/>
                                     </curve>
                                 </curves>
@@ -239,10 +239,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="1.53057" y="2.66116"/>
+                    <start x="1.53006" y="2.66014"/>
                     <curves>
                         <curve>
-                            <C1 xpos="1.62646" ypos="-5.4503"/>
+                            <C1 xpos="1.62595" ypos="-5.45132"/>
                             <C2 xpos="11.5949" ypos="-1.66171"/>
                             <end xpos="13.7952" ypos="0.740479"/>
                         </curve>
@@ -279,8 +279,8 @@
                                 <start x="13.6055" y="0.740116"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="12.9874" ypos="0.265049"/>
-                                        <C2 xpos="13.1712" ypos="0.063943"/>
+                                        <C1 xpos="13.4402" ypos="0.670024"/>
+                                        <C2 xpos="13.5765" ypos="0.40285"/>
                                         <end xpos="13.7952" ypos="0.740479"/>
                                     </curve>
                                 </curves>
@@ -299,10 +299,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="1.82987" y="2.66213"/>
+                    <start x="1.82936" y="2.66111"/>
                     <curves>
                         <curve>
-                            <C1 xpos="3.3062" ypos="-8.79346"/>
+                            <C1 xpos="3.30569" ypos="-8.79448"/>
                             <C2 xpos="8.74156" ypos="-2.40206"/>
                             <end xpos="11.0365" ypos="0.745926"/>
                         </curve>
@@ -336,11 +336,11 @@
                     <LL:Input src="GPe c2" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="10.5636" y="0.871235"/>
+                                <start x="10.8514" y="0.74651"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="9.938" ypos="0.589564"/>
-                                        <C2 xpos="10.4619" ypos="-0.0519056"/>
+                                        <C1 xpos="10.7096" ypos="0.603723"/>
+                                        <C2 xpos="10.8677" ypos="0.434695"/>
                                         <end xpos="11.0365" ypos="0.745926"/>
                                     </curve>
                                 </curves>
@@ -359,10 +359,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="1.99013" y="2.66213"/>
+                    <start x="1.98962" y="2.66111"/>
                     <curves>
                         <curve>
-                            <C1 xpos="2.85446" ypos="-4.91616"/>
+                            <C1 xpos="2.85395" ypos="-4.91718"/>
                             <C2 xpos="11.2729" ypos="-8.38037"/>
                             <end xpos="17.9594" ypos="0.739977"/>
                         </curve>
@@ -399,8 +399,8 @@
                                 <start x="17.7781" y="0.73946"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="17.1494" ypos="0.0885971"/>
-                                        <C2 xpos="17.4339" ypos="-0.13022"/>
+                                        <C1 xpos="17.6005" ypos="0.610046"/>
+                                        <C2 xpos="17.8295" ypos="0.484638"/>
                                         <end xpos="17.9594" ypos="0.739977"/>
                                     </curve>
                                 </curves>
@@ -713,8 +713,8 @@
                     <curves>
                         <curve>
                             <C1 xpos="2.71839" ypos="1.43969"/>
-                            <C2 xpos="2.17646" ypos="1.67191"/>
-                            <end xpos="2.17425" ypos="2.66338"/>
+                            <C2 xpos="2.17595" ypos="1.67089"/>
+                            <end xpos="2.17374" ypos="2.66236"/>
                         </curve>
                     </curves>
                 </SpineCreator>
@@ -746,12 +746,12 @@
                     <LL:Input src="STN c1" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="2.31694" y="2.66338"/>
+                                <start x="2.31643" y="2.66236"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="2.5309" ypos="2.617"/>
-                                        <C2 xpos="2.37501" ypos="2.29605"/>
-                                        <end xpos="2.17425" ypos="2.66338"/>
+                                        <C1 xpos="2.53039" ypos="2.61598"/>
+                                        <C2 xpos="2.3745" ypos="2.29503"/>
+                                        <end xpos="2.17374" ypos="2.66236"/>
                                     </curve>
                                 </curves>
                             </SpineCreator>
@@ -1533,8 +1533,8 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="-0.492286"/>
-                <yPos value="8.26038"/>
+                <xPos value="9.19484"/>
+                <yPos value="8.66401"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
                 <colour red="0" green="0" blue="0"/>
@@ -1546,17 +1546,17 @@
                 <is_visualised value="1"/>
             </SpineCreator>
         </LL:Annotation>
-        <LL:Neuron name="Background c1" size="25" url="SpikeSource"/>
+        <LL:Neuron name="Background Str" size="25" url="SpikeSource"/>
         <Layout url="none.xml" seed="123" minimum_distance="0"/>
         <LL:Projection dst_population="D1 MSN c1">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="-0.378493" y="7.76696"/>
+                    <start x="8.85207" y="9.02972"/>
                     <curves>
                         <curve>
-                            <C1 xpos="-0.241047" ypos="7.17637"/>
-                            <C2 xpos="-0.345825" ypos="7.61134"/>
+                            <C1 xpos="4.21485" ypos="10.6668"/>
+                            <C2 xpos="-0.374456" ypos="9.04268"/>
                             <end xpos="-0.36244" ypos="6.66181"/>
                         </curve>
                     </curves>
@@ -1568,12 +1568,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c1 to D1 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background Str to D1 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c1 to D1 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background Str to D1 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1612,11 +1612,11 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="-0.119565" y="7.92071"/>
+                    <start x="8.76571" y="8.91488"/>
                     <curves>
                         <curve>
-                            <C1 xpos="0.76007" ypos="6.74935"/>
-                            <C2 xpos="2.1431" ypos="6.05511"/>
+                            <C1 xpos="3.31475" ypos="9.90672"/>
+                            <C2 xpos="2.06554" ypos="8.08268"/>
                             <end xpos="2.1431" ypos="5.15747"/>
                         </curve>
                     </curves>
@@ -1628,12 +1628,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c1 to FSI c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background Str to FSI c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c1 to FSI c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background Str to FSI c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1668,75 +1668,15 @@
                 </LL:PostSynapse>
             </LL:Synapse>
         </LL:Projection>
-        <LL:Projection dst_population="STN c1">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="-0.268634" y="7.8073"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="0.805918" ypos="6.21753"/>
-                            <C2 xpos="1.40219" ypos="5.36196"/>
-                            <end xpos="1.40219" ypos="3.66186"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.2" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c1 to STN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c1 to STN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.3"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="STN c1" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="1.68724" y="3.66186"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="1.64553" ypos="4.08418"/>
-                                        <C2 xpos="1.45296" ypos="4.01082"/>
-                                        <end xpos="1.40219" ypos="3.66186"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
         <LL:Projection dst_population="D2 MSN c1">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="-0.0185123" y="8.08736"/>
+                    <start x="8.70414" y="8.67318"/>
                     <curves>
                         <curve>
-                            <C1 xpos="-0.0185123" ypos="7.38032"/>
-                            <C2 xpos="4.07277" ypos="8.75704"/>
+                            <C1 xpos="5.27456" ypos="8.58653"/>
+                            <C2 xpos="4.7275" ypos="8.29947"/>
                             <end xpos="4.14791" ypos="6.66055"/>
                         </curve>
                     </curves>
@@ -1748,12 +1688,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c1 to D2 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background Str to D2 MSN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c1 to D2 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background Str to D2 MSN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1775,6 +1715,366 @@
                                         <C1 xpos="4.46762" ypos="7.02136"/>
                                         <C2 xpos="4.14942" ypos="7.07793"/>
                                         <end xpos="4.14791" ypos="6.66055"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="D1 MSN c2">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="8.75604" y="8.45186"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="7.29561" ypos="8.39275"/>
+                            <C2 xpos="6.98749" ypos="7.77947"/>
+                            <end xpos="6.81812" ypos="6.74651"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to D1 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to D1 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.5"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="D1 MSN c2" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="7.08937" y="6.74651"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="7.27221" ypos="7.08556"/>
+                                        <C2 xpos="6.85581" ypos="7.23978"/>
+                                        <end xpos="6.81812" ypos="6.74651"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="FSI c2">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="9.27301" y="8.17763"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="9.27301" ypos="6.49513"/>
+                            <C2 xpos="9.79061" ypos="6.48518"/>
+                            <end xpos="9.79061" ypos="5.24651"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to FSI c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to FSI c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.125"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="FSI c2" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="10.0606" y="5.24651"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="10.114" ypos="5.50396"/>
+                                        <C2 xpos="9.83595" ypos="5.7057"/>
+                                        <end xpos="9.79061" ypos="5.24651"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="D2 MSN c2">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="9.68943" y="8.5567"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="10.8942" ypos="8.30619"/>
+                            <C2 xpos="10.9675" ypos="7.49851"/>
+                            <end xpos="10.9675" ypos="6.74651"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to D2 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to D2 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.225"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="D2 MSN c2" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="11.1542" y="6.74651"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="11.1777" ypos="6.95231"/>
+                                        <C2 xpos="10.9591" ypos="7.01958"/>
+                                        <end xpos="10.9675" ypos="6.74651"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="D1 MSN c3">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="9.70398" y="8.7105"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="12.6344" ypos="8.62641"/>
+                            <C2 xpos="13.0675" ypos="8.39947"/>
+                            <end xpos="13.6759" ypos="6.73945"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to D1 MSN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to D1 MSN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.5"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="D1 MSN c3" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="13.8116" y="6.73945"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="13.8392" ypos="6.96492"/>
+                                        <C2 xpos="13.6542" ypos="6.95651"/>
+                                        <end xpos="13.6759" ypos="6.73945"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="D2 MSN c3">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="9.56955" y="9.01615"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="13.0527" ypos="10.5635"/>
+                            <C2 xpos="18.3878" ypos="10.1448"/>
+                            <end xpos="18.2776" ypos="6.73945"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to D2 MSN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to D2 MSN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.225"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="D2 MSN c3" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="18.4158" y="6.73945"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="18.5122" ypos="7.0517"/>
+                                        <C2 xpos="18.2754" ypos="7.02722"/>
+                                        <end xpos="18.2776" ypos="6.73945"/>
+                                    </curve>
+                                </curves>
+                            </SpineCreator>
+                        </LL:Annotation>
+                        <OneToOneConnection>
+                            <Delay dimension="ms">
+                                <FixedValue value="0"/>
+                            </Delay>
+                        </OneToOneConnection>
+                    </LL:Input>
+                </LL:PostSynapse>
+            </LL:Synapse>
+        </LL:Projection>
+        <LL:Projection dst_population="FSI c3">
+            <LL:Annotation>
+                <SpineCreator>
+                    <DrawOptions style="4" showlabel="0"/>
+                    <start x="9.67113" y="8.85361"/>
+                    <curves>
+                        <curve>
+                            <C1 xpos="14.6346" ypos="9.88885"/>
+                            <C2 xpos="16.8365" ypos="7.97482"/>
+                            <end xpos="16.773" ypos="5.23945"/>
+                        </curve>
+                    </curves>
+                </SpineCreator>
+            </LL:Annotation>
+            <LL:Synapse>
+                <FixedProbabilityConnection probability="0.15" seed="123">
+                    <Delay dimension="ms">
+                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                    </Delay>
+                </FixedProbabilityConnection>
+                <LL:WeightUpdate name="Background Str to FSI c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                    <Property name="S" dimension="?">
+                        <FixedValue value="1"/>
+                    </Property>
+                </LL:WeightUpdate>
+                <LL:PostSynapse name="Background Str to FSI c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                    <Property name="tau_ampa" dimension="ms">
+                        <FixedValue value="6"/>
+                    </Property>
+                    <Property name="E_ampa" dimension="mV">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <Property name="g_bar" dimension="uS">
+                        <FixedValue value="0.125"/>
+                    </Property>
+                    <Property name="g_ampa" dimension="uS">
+                        <FixedValue value="0"/>
+                    </Property>
+                    <LL:Input src="FSI c3" src_port="v" dst_port="v">
+                        <LL:Annotation>
+                            <SpineCreator>
+                                <start x="17.0658" y="5.23945"/>
+                                <curves>
+                                    <curve>
+                                        <C1 xpos="17.1281" ypos="5.55492"/>
+                                        <C2 xpos="16.8001" ypos="5.73992"/>
+                                        <end xpos="16.773" ypos="5.23945"/>
                                     </curve>
                                 </curves>
                             </SpineCreator>
@@ -2008,8 +2308,8 @@
                                 <start x="0.973305" y="0.662458"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="1.52855" ypos="0.316713"/>
-                                        <C2 xpos="1.6313" ypos="0.510075"/>
+                                        <C1 xpos="1.15366" ypos="0.518712"/>
+                                        <C2 xpos="1.30502" ypos="0.703709"/>
                                         <end xpos="1.0037" ypos="0.790319"/>
                                     </curve>
                                 </curves>
@@ -2068,8 +2368,8 @@
                                 <start x="13.4228" y="0.944227"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="12.7481" ypos="0.704672"/>
-                                        <C2 xpos="12.8574" ypos="0.462628"/>
+                                        <C1 xpos="13.1567" ypos="0.849957"/>
+                                        <C2 xpos="13.2876" ypos="0.78998"/>
                                         <end xpos="13.4201" ypos="0.77547"/>
                                     </curve>
                                 </curves>
@@ -2125,11 +2425,11 @@
                     <LL:Input src="GPe c1" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="3.8973" y="0.663276"/>
+                                <start x="4.02337" y="0.66321"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="3.83618" ypos="0.587995"/>
-                                        <C2 xpos="4.01867" ypos="0.247997"/>
+                                        <C1 xpos="3.985" ypos="0.525989"/>
+                                        <C2 xpos="4.14302" ypos="0.45616"/>
                                         <end xpos="4.18057" ypos="0.662944"/>
                                     </curve>
                                 </curves>
@@ -2188,8 +2488,8 @@
                                 <start x="17.4279" y="0.874074"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="16.7954" ypos="0.596755"/>
-                                        <C2 xpos="16.9126" ypos="0.377797"/>
+                                        <C1 xpos="17.1643" ypos="0.85541"/>
+                                        <C2 xpos="17.3497" ypos="0.659119"/>
                                         <end xpos="17.4791" ypos="0.739888"/>
                                     </curve>
                                 </curves>
@@ -3322,265 +3622,6 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="6.74088"/>
-                <yPos value="8.34368"/>
-                <animSpeed value="0.2"/>
-                <aspectRatio value="1.66667"/>
-                <colour red="0" green="0" blue="0"/>
-                <size value="1"/>
-                <tag value="1"/>
-                <x3D value="-1"/>
-                <y3D value="0"/>
-                <z3D value="14"/>
-                <is_visualised value="1"/>
-            </SpineCreator>
-        </LL:Annotation>
-        <LL:Neuron name="Background c2" size="25" url="SpikeSource"/>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
-        <LL:Projection dst_population="D1 MSN c2">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="6.85848" y="7.85119"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="6.99593" ypos="7.26061"/>
-                            <C2 xpos="6.89823" ypos="7.6879"/>
-                            <end xpos="6.88162" ypos="6.73837"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c2 to D1 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c2 to D1 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.5"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="D1 MSN c2" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="7.16446" y="6.73941"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="7.13422" ypos="7.12669"/>
-                                        <C2 xpos="6.95745" ypos="7.24688"/>
-                                        <end xpos="6.88162" ypos="6.73837"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
-        <LL:Projection dst_population="FSI c2">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="7.11741" y="8.00495"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="7.99704" ypos="6.83359"/>
-                            <C2 xpos="9.36681" ypos="6.13888"/>
-                            <end xpos="9.36681" ypos="5.24124"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c2 to FSI c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c2 to FSI c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.125"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="FSI c2" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="9.52" y="5.24124"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="9.61761" ypos="5.5836"/>
-                                        <C2 xpos="9.37002" ypos="5.5836"/>
-                                        <end xpos="9.36681" ypos="5.24124"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
-        <LL:Projection dst_population="STN c2">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="6.96834" y="7.89153"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="8.04289" ypos="6.30177"/>
-                            <C2 xpos="8.63057" ypos="5.44549"/>
-                            <end xpos="8.63057" ypos="3.74539"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.2" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c2 to STN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c2 to STN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.3"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="STN c2" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="8.91562" y="3.74539"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="8.87391" ypos="4.16771"/>
-                                        <C2 xpos="8.68134" ypos="4.09435"/>
-                                        <end xpos="8.63057" ypos="3.74539"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
-        <LL:Projection dst_population="D2 MSN c2">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="7.21846" y="8.1716"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="7.21846" ypos="7.46455"/>
-                            <C2 xpos="11.3096" ypos="8.84081"/>
-                            <end xpos="11.3847" ypos="6.74432"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c2 to D2 MSN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c2 to D2 MSN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.225"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="D2 MSN c2" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="11.6679" y="6.74432"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="11.7045" ypos="7.10513"/>
-                                        <C2 xpos="11.3863" ypos="7.1617"/>
-                                        <end xpos="11.3847" ypos="6.74432"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
-    </LL:Population>
-    <LL:Population>
-        <LL:Annotation>
-            <SpineCreator>
                 <xPos value="15.8565"/>
                 <yPos value="3.3108"/>
                 <animSpeed value="0.2"/>
@@ -3857,8 +3898,8 @@
                                 <start x="7.2851" y="0.745856"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="7.24855" ypos="0.356161"/>
-                                        <C2 xpos="7.46851" ypos="-0.352701"/>
+                                        <C1 xpos="7.24726" ypos="0.55465"/>
+                                        <C2 xpos="7.47082" ypos="0.53284"/>
                                         <end xpos="7.42088" ypos="0.745541"/>
                                     </curve>
                                 </curves>
@@ -3914,11 +3955,11 @@
                     <LL:Input src="GPe c2" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="11.2258" y="0.74645"/>
+                                <start x="11.3669" y="0.74651"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="10.8789" ypos="-0.267412"/>
-                                        <C2 xpos="11.7052" ypos="-0.323544"/>
+                                        <C1 xpos="11.3639" ypos="0.500125"/>
+                                        <C2 xpos="11.5657" ypos="0.521935"/>
                                         <end xpos="11.4951" ypos="0.746113"/>
                                     </curve>
                                 </curves>
@@ -3977,8 +4018,8 @@
                                 <start x="4.2844" y="0.663303"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="4.36119" ypos="0.305491"/>
-                                        <C2 xpos="4.89868" ypos="-0.00700533"/>
+                                        <C1 xpos="4.33394" ypos="0.477373"/>
+                                        <C2 xpos="4.49657" ypos="0.541012"/>
                                         <end xpos="4.38314" ypos="0.663034"/>
                                     </curve>
                                 </curves>
@@ -5111,47 +5152,47 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="13.6059"/>
-                <yPos value="8.33662"/>
+                <xPos value="5.65392"/>
+                <yPos value="3.6558"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
                 <colour red="0" green="0" blue="0"/>
                 <size value="1"/>
                 <tag value="1"/>
-                <x3D value="-1"/>
+                <x3D value="0"/>
                 <y3D value="0"/>
-                <z3D value="14"/>
-                <is_visualised value="1"/>
+                <z3D value="0"/>
+                <is_visualised value="0"/>
             </SpineCreator>
         </LL:Annotation>
-        <LL:Neuron name="Background c3" size="25" url="SpikeSource"/>
+        <LL:Neuron name="Background STN" size="2" url="SpikeSource"/>
         <Layout url="none.xml" seed="123" minimum_distance="0"/>
-        <LL:Projection dst_population="D1 MSN c3">
+        <LL:Projection dst_population="STN c1">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="13.7105" y="7.86214"/>
+                    <start x="5.15824" y="3.609"/>
                     <curves>
                         <curve>
-                            <C1 xpos="13.8479" ypos="7.27155"/>
-                            <C2 xpos="13.7502" ypos="7.68984"/>
-                            <end xpos="13.7336" ypos="6.74031"/>
+                            <C1 xpos="3.97017" ypos="3.2008"/>
+                            <C2 xpos="3.46087" ypos="3.26858"/>
+                            <end xpos="2.50788" ypos="3.26858"/>
                         </curve>
                     </curves>
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.2" seed="123">
                     <Delay dimension="ms">
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D1 MSN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background STN to STN c1 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D1 MSN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background STN to STN c1 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -5159,20 +5200,20 @@
                         <FixedValue value="0"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.5"/>
+                        <FixedValue value="0.3"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <LL:Input src="D1 MSN c3" src_port="v" dst_port="v">
+                    <LL:Input src="STN c1" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="14.0164" y="6.74135"/>
+                                <start x="2.50789" y="3.10683"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="13.9862" ypos="7.12863"/>
-                                        <C2 xpos="13.8094" ypos="7.24882"/>
-                                        <end xpos="13.7336" ypos="6.74031"/>
+                                        <C1 xpos="2.78619" ypos="3.04286"/>
+                                        <C2 xpos="2.82436" ypos="3.35912"/>
+                                        <end xpos="2.50788" ypos="3.26858"/>
                                     </curve>
                                 </curves>
                             </SpineCreator>
@@ -5186,32 +5227,32 @@
                 </LL:PostSynapse>
             </LL:Synapse>
         </LL:Projection>
-        <LL:Projection dst_population="FSI c3">
+        <LL:Projection dst_population="STN c2">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="13.9694" y="8.01589"/>
+                    <start x="6.15094" y="3.57425"/>
                     <curves>
                         <curve>
-                            <C1 xpos="14.849" ypos="6.84453"/>
-                            <C2 xpos="16.2211" ypos="6.14082"/>
-                            <end xpos="16.2211" ypos="5.24318"/>
+                            <C1 xpos="7.28628" ypos="3.32858"/>
+                            <C2 xpos="7.37775" ypos="3.34544"/>
+                            <end xpos="8.06299" ypos="3.34544"/>
                         </curve>
                     </curves>
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.2" seed="123">
                     <Delay dimension="ms">
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to FSI c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background STN to STN c2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to FSI c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background STN to STN c2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -5219,20 +5260,20 @@
                         <FixedValue value="0"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.125"/>
+                        <FixedValue value="0.3"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <LL:Input src="FSI c3" src_port="v" dst_port="v">
+                    <LL:Input src="STN c2" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="16.3743" y="5.24318"/>
+                                <start x="8.06299" y="3.47263"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="16.4719" ypos="5.58554"/>
-                                        <C2 xpos="16.2243" ypos="5.58554"/>
-                                        <end xpos="16.2211" ypos="5.24318"/>
+                                        <C1 xpos="7.77458" ypos="3.55576"/>
+                                        <C2 xpos="7.78165" ypos="3.33656"/>
+                                        <end xpos="8.06299" ypos="3.34544"/>
                                     </curve>
                                 </curves>
                             </SpineCreator>
@@ -5250,12 +5291,12 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="13.8203" y="7.90248"/>
+                    <start x="6.14507" y="3.76926"/>
                     <curves>
                         <curve>
-                            <C1 xpos="14.8949" ypos="6.31271"/>
-                            <C2 xpos="15.574" ypos="5.51428"/>
-                            <end xpos="15.574" ypos="3.81418"/>
+                            <C1 xpos="9.57935" ypos="3.89827"/>
+                            <C2 xpos="11.2475" ypos="4.57947"/>
+                            <end xpos="15.0232" ypos="3.33977"/>
                         </curve>
                     </curves>
                 </SpineCreator>
@@ -5266,12 +5307,12 @@
                         <UniformDistribution minimum="9" maximum="12" seed="123"/>
                     </Delay>
                 </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to STN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background STN to STN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to STN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background STN to STN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -5287,72 +5328,12 @@
                     <LL:Input src="STN c3" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
-                                <start x="15.859" y="3.81418"/>
+                                <start x="15.0232" y="3.4767"/>
                                 <curves>
                                     <curve>
-                                        <C1 xpos="15.8173" ypos="4.2365"/>
-                                        <C2 xpos="15.6247" ypos="4.16314"/>
-                                        <end xpos="15.574" ypos="3.81418"/>
-                                    </curve>
-                                </curves>
-                            </SpineCreator>
-                        </LL:Annotation>
-                        <OneToOneConnection>
-                            <Delay dimension="ms">
-                                <FixedValue value="0"/>
-                            </Delay>
-                        </OneToOneConnection>
-                    </LL:Input>
-                </LL:PostSynapse>
-            </LL:Synapse>
-        </LL:Projection>
-        <LL:Projection dst_population="D2 MSN c3">
-            <LL:Annotation>
-                <SpineCreator>
-                    <DrawOptions style="4" showlabel="0"/>
-                    <start x="14.0704" y="8.18255"/>
-                    <curves>
-                        <curve>
-                            <C1 xpos="14.0704" ypos="7.4755"/>
-                            <C2 xpos="18.1485" ypos="8.84275"/>
-                            <end xpos="18.2236" ypos="6.74626"/>
-                        </curve>
-                    </curves>
-                </SpineCreator>
-            </LL:Annotation>
-            <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
-                    <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
-                    </Delay>
-                </FixedProbabilityConnection>
-                <LL:WeightUpdate name="Background c3 to D2 MSN c3 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
-                    <Property name="S" dimension="?">
-                        <FixedValue value="1"/>
-                    </Property>
-                </LL:WeightUpdate>
-                <LL:PostSynapse name="Background c3 to D2 MSN c3 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
-                    <Property name="tau_ampa" dimension="ms">
-                        <FixedValue value="6"/>
-                    </Property>
-                    <Property name="E_ampa" dimension="mV">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <Property name="g_bar" dimension="uS">
-                        <FixedValue value="0.225"/>
-                    </Property>
-                    <Property name="g_ampa" dimension="uS">
-                        <FixedValue value="0"/>
-                    </Property>
-                    <LL:Input src="D2 MSN c3" src_port="v" dst_port="v">
-                        <LL:Annotation>
-                            <SpineCreator>
-                                <start x="18.5068" y="6.74626"/>
-                                <curves>
-                                    <curve>
-                                        <C1 xpos="18.5433" ypos="7.10707"/>
-                                        <C2 xpos="18.2251" ypos="7.16364"/>
-                                        <end xpos="18.2236" ypos="6.74626"/>
+                                        <C1 xpos="14.787" ypos="3.58177"/>
+                                        <C2 xpos="14.7761" ypos="3.28734"/>
+                                        <end xpos="15.0232" ypos="3.33977"/>
                                     </curve>
                                 </curves>
                             </SpineCreator>
