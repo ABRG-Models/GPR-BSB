@@ -2,7 +2,9 @@
 <SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
  <ComponentClass name="GABA" type="postsynapse">
   <Annotation>
-   <SpineCreator/>
+   <SpineCreator>
+    <Text key="I_gaba"></Text>
+   </SpineCreator>
   </Annotation>
   <Dynamics initial_regime="Current">
    <Regime name="Current">
@@ -11,7 +13,7 @@
     </TimeDerivative>
     <OnImpulse target_regime="Current" src_port="S">
      <StateAssignment variable="g_gaba">
-      <MathInline>g_gaba + S * g_bar</MathInline>
+      <MathInline>g_gaba + S*g_bar*(1 - g_gaba/g_bar)</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>

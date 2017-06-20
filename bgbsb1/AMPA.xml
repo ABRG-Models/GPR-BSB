@@ -11,7 +11,7 @@
     </TimeDerivative>
     <OnImpulse target_regime="Current" src_port="S">
      <StateAssignment variable="g_ampa">
-      <MathInline>g_ampa + S * g_bar</MathInline>
+      <MathInline>g_ampa + S*g_bar*(1 - g_ampa/g_bar)</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
