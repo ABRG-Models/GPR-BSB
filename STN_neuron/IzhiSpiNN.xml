@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
- <ComponentClass name="IzhiABCTFast" type="neuron_body">
+ <ComponentClass name="IzhiSpiNN" type="neuron_body">
   <Annotation>
    <SpineCreator/>
   </Annotation>
   <Dynamics initial_regime="R1">
    <Regime name="R1">
     <TimeDerivative variable="v">
-     <MathInline>AT*v*v + BT*v + CT - u*T + I*ToverSI</MathInline>
+     <MathInline>0.04*v*v + 5*v + 140 - u + I_dc + I</MathInline>
     </TimeDerivative>
     <TimeDerivative variable="u">
-     <MathInline>aT*(b*v-u)</MathInline>
+     <MathInline>a*(b*v-u)</MathInline>
     </TimeDerivative>
     <OnCondition target_regime="R1">
      <StateAssignment variable="v">
@@ -26,7 +26,7 @@
     </OnCondition>
    </Regime>
    <Alias name="I" dimension="?">
-    <MathInline>I_AMPA + I_NMDA + I_GABA</MathInline>
+    <MathInline>I_AMPA + I_GABA</MathInline>
    </Alias>
    <StateVariable name="v" dimension="mV"/>
    <StateVariable name="u" dimension="?"/>
@@ -34,19 +34,14 @@
   <AnalogReducePort name="I_AMPA" reduce_op="+" dimension="pA"/>
   <AnalogSendPort name="v"/>
   <AnalogSendPort name="u"/>
-  <AnalogReducePort name="I_NMDA" reduce_op="+" dimension="pA"/>
   <AnalogReducePort name="I_GABA" reduce_op="+" dimension="pA"/>
   <AnalogSendPort name="I"/>
   <EventSendPort name="spike"/>
-  <Parameter name="aT" dimension="?"/>
+  <Parameter name="a" dimension="?"/>
   <Parameter name="b" dimension="?"/>
   <Parameter name="c" dimension="?"/>
   <Parameter name="d" dimension="?"/>
   <Parameter name="Vpeak" dimension="?"/>
-  <Parameter name="AT" dimension="?"/>
-  <Parameter name="BT" dimension="?"/>
-  <Parameter name="CT" dimension="?"/>
-  <Parameter name="T" dimension="?"/>
-  <Parameter name="ToverSI" dimension="?"/>
+  <Parameter name="I_dc" dimension="?"/>
  </ComponentClass>
 </SpineML>

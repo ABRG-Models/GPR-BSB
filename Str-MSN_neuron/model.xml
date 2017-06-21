@@ -3,7 +3,7 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="-0.343411"/>
+                <xPos value="-0.334241"/>
                 <yPos value="6.30222"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
@@ -16,8 +16,8 @@
                 <is_visualised value="1"/>
             </SpineCreator>
         </LL:Annotation>
-        <LL:Neuron name="D1 MSN" size="1" url="IzhiABCTFast.xml">
-            <Property name="aT" dimension="?">
+        <LL:Neuron name="D1 MSN" size="1" url="IzhiSpiNN.xml">
+            <Property name="a" dimension="?">
                 <FixedValue value="0.02"/>
             </Property>
             <Property name="b" dimension="?">
@@ -32,20 +32,8 @@
             <Property name="Vpeak" dimension="?">
                 <FixedValue value="30"/>
             </Property>
-            <Property name="AT" dimension="?">
-                <FixedValue value="0.04"/>
-            </Property>
-            <Property name="BT" dimension="?">
-                <FixedValue value="5"/>
-            </Property>
-            <Property name="CT" dimension="?">
-                <FixedValue value="110"/>
-            </Property>
-            <Property name="T" dimension="?">
-                <FixedValue value="1"/>
-            </Property>
-            <Property name="ToverSI" dimension="?">
-                <FixedValue value="1"/>
+            <Property name="I_dc" dimension="?">
+                <FixedValue value="-30"/>
             </Property>
             <Property name="v" dimension="mV">
                 <FixedValue value="-80"/>
