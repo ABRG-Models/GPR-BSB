@@ -16,7 +16,7 @@
                 <is_visualised value="1"/>
             </SpineCreator>
         </LL:Annotation>
-        <LL:Neuron name="D1 MSN" size="1" url="IzhiSpiNN.xml">
+        <LL:Neuron name="glimited" size="1" url="IzhiSpiNN.xml">
             <Property name="a" dimension="?">
                 <FixedValue value="0.02"/>
             </Property>
@@ -62,7 +62,7 @@
         </LL:Annotation>
         <LL:Neuron name="Background" size="100" url="SpikeSource"/>
         <Layout url="none.xml" seed="123" minimum_distance="0"/>
-        <LL:Projection dst_population="D1 MSN">
+        <LL:Projection dst_population="glimited">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
@@ -82,12 +82,12 @@
                         <FixedValue value="0"/>
                     </Delay>
                 </AllToAllConnection>
-                <LL:WeightUpdate name="Background to D1 MSN Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background to glimited Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background to D1 MSN Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background to glimited Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -98,12 +98,12 @@
                         <FixedValue value="0.5"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1.6"/>
+                        <FixedValue value="1.001"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <LL:Input src="D1 MSN" src_port="v" dst_port="v">
+                    <LL:Input src="glimited" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
                                 <start x="-0.13508" y="6.0063"/>
@@ -125,7 +125,7 @@
                 </LL:PostSynapse>
             </LL:Synapse>
         </LL:Projection>
-        <LL:Projection dst_population="pop2">
+        <LL:Projection dst_population="gunlimited">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
@@ -145,12 +145,12 @@
                         <FixedValue value="0"/>
                     </Delay>
                 </AllToAllConnection>
-                <LL:WeightUpdate name="Background to pop2 Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
+                <LL:WeightUpdate name="Background to gunlimited Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
                     <Property name="S" dimension="?">
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background to pop2 Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background to gunlimited Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -163,7 +163,7 @@
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <LL:Input src="pop2" src_port="v" dst_port="v">
+                    <LL:Input src="gunlimited" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
                                 <start x="1.51228" y="6.04508"/>
@@ -193,7 +193,7 @@
                 <yPos value="5.5449"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
-                <colour red="0" green="0" blue="0"/>
+                <colour red="0" green="255" blue="0"/>
                 <size value="1"/>
                 <tag value="1"/>
                 <x3D value="0"/>
@@ -202,7 +202,7 @@
                 <is_visualised value="0"/>
             </SpineCreator>
         </LL:Annotation>
-        <LL:Neuron name="pop2" size="1" url="IzhiSpiNN.xml">
+        <LL:Neuron name="gunlimited" size="1" url="IzhiSpiNN.xml">
             <Property name="a" dimension="?">
                 <FixedValue value="0.02"/>
             </Property>
