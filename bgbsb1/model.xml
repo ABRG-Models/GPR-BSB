@@ -68,7 +68,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="STN to SNr Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="STN to SNr Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -77,6 +77,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.05"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -128,7 +131,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="STN to GPe Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="STN to GPe Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -137,6 +140,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.05"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -232,7 +238,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="SNr to SNr Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="SNr to SNr Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -241,6 +247,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -336,7 +345,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="GPe to SNr Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="GPe to SNr Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -345,6 +354,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -396,7 +408,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="GPe to GPe Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="GPe to GPe Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -405,6 +417,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS"/>
                     <LL:Input src="GPe" src_port="v" dst_port="v">
@@ -454,7 +469,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="GPe to STN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="GPe to STN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -463,6 +478,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -514,7 +532,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="GPe to FSI Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="GPe to FSI Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -523,6 +541,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -618,7 +639,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D1 MSN to SNr Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D1 MSN to SNr Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -627,6 +648,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.3"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS"/>
                     <LL:Input src="SNr" src_port="v" dst_port="v">
@@ -676,7 +700,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D1 MSN to D1 MSN Synapse 0 postsynapse" url="GABAbuf.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D1 MSN to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -686,13 +710,12 @@
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
                     </Property>
-                    <Property name="buffer_max" dimension="?">
-                        <FixedValue value="8"/>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <Property name="buffer" dimension="?"/>
                     <LL:Input src="D1 MSN" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
@@ -740,7 +763,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D1 MSN to D2 MSN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D1 MSN to D2 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -749,6 +772,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -844,7 +870,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D2 MSN to GPe Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D2 MSN to GPe Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -853,6 +879,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.2"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS"/>
                     <LL:Input src="GPe" src_port="v" dst_port="v">
@@ -902,7 +931,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D2 MSN to D2 MSN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D2 MSN to D2 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -911,6 +940,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -962,7 +994,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D2 MSN to D1 MSN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="D2 MSN to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -971,6 +1003,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1066,7 +1101,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="FSI to D1 MSN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="FSI to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1075,6 +1110,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1126,7 +1164,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="FSI to D2 MSN Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="FSI to D2 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1135,6 +1173,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1186,7 +1227,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="FSI to FSI Synapse 0 postsynapse" url="GABA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
+                <LL:PostSynapse name="FSI to FSI Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1195,6 +1236,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.0982"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1265,7 +1309,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background to D1 MSN Synapse 0 postsynapse" url="AMPAbuf.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background to D1 MSN Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1275,13 +1319,12 @@
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.5"/>
                     </Property>
-                    <Property name="buffer_max" dimension="?">
-                        <FixedValue value="8"/>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
                     </Property>
-                    <Property name="buffer" dimension="?"/>
                     <LL:Input src="D1 MSN" src_port="v" dst_port="v">
                         <LL:Annotation>
                             <SpineCreator>
@@ -1329,7 +1372,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background to FSI Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background to FSI Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1338,6 +1381,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.125"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -1389,7 +1435,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="Background to D2 MSN Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="Background to D2 MSN Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1398,6 +1444,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.225"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -1468,7 +1517,7 @@
                         <FixedValue value="1"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="BackgroundSTN to STN Synapse 0 postsynapse" url="AMPA.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="BackgroundSTN to STN Synapse 0 postsynapse" url="AMPASpiNN.xml" input_src_port="S" input_dst_port="S" output_src_port="I_ampa" output_dst_port="I_AMPA">
                     <Property name="tau_ampa" dimension="ms">
                         <FixedValue value="6"/>
                     </Property>
@@ -1477,6 +1526,9 @@
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.3"/>
+                    </Property>
+                    <Property name="g_limit" dimension="uS">
+                        <FixedValue value="5"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
