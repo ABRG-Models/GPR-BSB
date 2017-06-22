@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
- <ComponentClass name="AMPA" type="postsynapse">
+ <ComponentClass name="AMPASpiNN" type="postsynapse">
   <Annotation>
    <SpineCreator/>
   </Annotation>
@@ -9,9 +9,17 @@
     <TimeDerivative variable="g_ampa">
      <MathInline>-g_ampa/tau_ampa</MathInline>
     </TimeDerivative>
+    <OnCondition target_regime="Current">
+     <StateAssignment variable="g_ampa">
+      <MathInline>g_limit</MathInline>
+     </StateAssignment>
+     <Trigger>
+      <MathInline>g_ampa>g_limit</MathInline>
+     </Trigger>
+    </OnCondition>
     <OnImpulse target_regime="Current" src_port="S">
      <StateAssignment variable="g_ampa">
-      <MathInline>g_ampa + S * g_bar</MathInline>
+      <MathInline>g_ampa + S*g_bar</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
@@ -27,5 +35,6 @@
   <Parameter name="tau_ampa" dimension="ms"/>
   <Parameter name="E_ampa" dimension="mV"/>
   <Parameter name="g_bar" dimension="uS"/>
+  <Parameter name="g_limit" dimension="uS"/>
  </ComponentClass>
 </SpineML>
