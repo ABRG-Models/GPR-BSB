@@ -350,7 +350,7 @@
                         <FixedValue value="4"/>
                     </Property>
                     <Property name="E_gaba" dimension="mV">
-                        <FixedValue value="-60"/>
+                        <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
@@ -413,7 +413,7 @@
                         <FixedValue value="4"/>
                     </Property>
                     <Property name="E_gaba" dimension="mV">
-                        <FixedValue value="-60"/>
+                        <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
@@ -474,7 +474,7 @@
                         <FixedValue value="4"/>
                     </Property>
                     <Property name="E_gaba" dimension="mV">
-                        <FixedValue value="-60"/>
+                        <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
@@ -537,7 +537,7 @@
                         <FixedValue value="4"/>
                     </Property>
                     <Property name="E_gaba" dimension="mV">
-                        <FixedValue value="-60"/>
+                        <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
