@@ -6,12 +6,20 @@
   </Annotation>
   <Dynamics initial_regime="Default">
    <Regime name="Default">
-    <OnEvent target_regime="Default" src_port="eventin">
+    <OnEvent target_regime="Default" src_port="eventin1">
+     <EventOut port="eventout"/>
+    </OnEvent>
+    <OnEvent target_regime="Default" src_port="eventin2">
+     <EventOut port="eventout"/>
+    </OnEvent>
+    <OnEvent target_regime="Default" src_port="eventin3">
      <EventOut port="eventout"/>
     </OnEvent>
    </Regime>
   </Dynamics>
-  <EventReceivePort name="eventin"/>
+  <EventReceivePort name="eventin1"/>
   <EventSendPort name="eventout"/>
+  <EventReceivePort name="eventin2"/>
+  <EventReceivePort name="eventin3"/>
  </ComponentClass>
 </SpineML>
