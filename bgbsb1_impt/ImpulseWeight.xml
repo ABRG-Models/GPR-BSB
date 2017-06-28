@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
+ <ComponentClass name="ImpulseWeight" type="weight_update">
+  <Annotation>
+   <SpineCreator/>
+  </Annotation>
+  <Dynamics initial_regime="Reset">
+   <Regime name="SumAndEmit">
+    <OnCondition target_regime="Reset">
+     <ImpulseOut port="S"/>
+     <Trigger>
+      <MathInline>S>S_impthresh</MathInline>
+     </Trigger>
+    </OnCondition>
+    <OnImpulse target_regime="SumAndEmit" src_port="in">
+     <StateAssignment variable="S">
+      <MathInline>S+in</MathInline>
+     </StateAssignment>
+    </OnImpulse>
+   </Regime>
+   <Regime name="Reset">
+    <OnCondition target_regime="SumAndEmit">
+     <StateAssignment variable="S">
+      <MathInline>0</MathInline>
+     </StateAssignment>
+     <Trigger>
+      <MathInline>1</MathInline>
+     </Trigger>
+    </OnCondition>
+   </Regime>
+   <StateVariable name="S" dimension="?"/>
+  </Dynamics>
+  <ImpulseSendPort name="S"/>
+  <ImpulseReceivePort name="in" dimension="?"/>
+  <Parameter name="S_impthresh" dimension="?"/>
+ </ComponentClass>
+</SpineML>
