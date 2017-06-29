@@ -7,12 +7,12 @@
   <Dynamics initial_regime="Regime">
    <Regime name="Regime">
     <OnEvent target_regime="Regime" src_port="eventin">
-     <ImpulseOut port="S"/>
+     <ImpulseOut port="g"/>
     </OnEvent>
    </Regime>
   </Dynamics>
   <EventReceivePort name="eventin"/>
-  <ImpulseSendPort name="S"/>
-  <Parameter name="S" dimension="?"/>
+  <ImpulseSendPort name="g"/>
+  <Parameter name="g" dimension="?"/>
  </ComponentClass>
 </SpineML>

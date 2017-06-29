@@ -7,20 +7,20 @@
   <Dynamics initial_regime="SumAndEmit">
    <Regime name="SumAndEmit">
     <OnCondition target_regime="Reset">
-     <ImpulseOut port="S"/>
+     <ImpulseOut port="g"/>
      <Trigger>
-      <MathInline>S>S_impthresh</MathInline>
+      <MathInline>g>0.00001</MathInline>
      </Trigger>
     </OnCondition>
     <OnImpulse target_regime="SumAndEmit" src_port="in">
-     <StateAssignment variable="S">
-      <MathInline>S+in</MathInline>
+     <StateAssignment variable="g">
+      <MathInline>g+in</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
    <Regime name="Reset">
     <OnCondition target_regime="SumAndEmit">
-     <StateAssignment variable="S">
+     <StateAssignment variable="g">
       <MathInline>0</MathInline>
      </StateAssignment>
      <Trigger>
@@ -28,10 +28,9 @@
      </Trigger>
     </OnCondition>
    </Regime>
-   <StateVariable name="S" dimension="?"/>
+   <StateVariable name="g" dimension="?"/>
   </Dynamics>
   <ImpulseReceivePort name="in" dimension="?"/>
-  <ImpulseSendPort name="S"/>
-  <Parameter name="S_impthresh" dimension="?"/>
+  <ImpulseSendPort name="g"/>
  </ComponentClass>
 </SpineML>

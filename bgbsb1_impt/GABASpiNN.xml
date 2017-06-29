@@ -19,9 +19,9 @@
       <MathInline>g_gaba>g_limit</MathInline>
      </Trigger>
     </OnCondition>
-    <OnImpulse target_regime="Current" src_port="S">
+    <OnImpulse target_regime="Current" src_port="g">
      <StateAssignment variable="g_gaba">
-      <MathInline>g_gaba + S*g_bar</MathInline>
+      <MathInline>g_gaba + g</MathInline>
      </StateAssignment>
     </OnImpulse>
    </Regime>
@@ -33,10 +33,9 @@
   <AnalogReducePort name="v" reduce_op="+" dimension="mV"/>
   <AnalogSendPort name="I_gaba"/>
   <AnalogSendPort name="g_gaba"/>
-  <ImpulseReceivePort name="S" dimension="?"/>
+  <ImpulseReceivePort name="g" dimension="?"/>
   <Parameter name="tau_gaba" dimension="ms"/>
   <Parameter name="E_gaba" dimension="mV"/>
-  <Parameter name="g_bar" dimension="uS"/>
   <Parameter name="g_limit" dimension="uS"/>
  </ComponentClass>
 </SpineML>
