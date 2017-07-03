@@ -142,7 +142,7 @@
         </LL:Annotation>
         <LL:Neuron name="D1toStr G" size="1255" url="EvToImpulse.xml">
             <Property name="g" dimension="?">
-                <FixedValue value="0.2"/>
+                <FixedValue value="0.0982"/>
             </Property>
             <LL:Input src="D1 MSN" src_port="spike" dst_port="eventin">
                 <LL:Annotation>
@@ -243,7 +243,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D1 MSN PT to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="D1 MSN PT to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
