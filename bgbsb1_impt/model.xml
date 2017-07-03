@@ -42,7 +42,7 @@
                 <FixedValue value="-15.9"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="SNr">
             <LL:Annotation>
                 <SpineCreator>
@@ -58,9 +58,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.5" seed="123">
+                <FixedProbabilityConnection probability="0.5" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="STN to SNr Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -121,9 +121,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.5" seed="123">
+                <FixedProbabilityConnection probability="0.5" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="STN to GPe Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -212,7 +212,7 @@
                 <FixedValue value="-22.4"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
     </LL:Population>
     <LL:Population>
         <LL:Annotation>
@@ -256,7 +256,7 @@
                 <FixedValue value="-40.95"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="6"/>
+        <Layout url="none.xml" seed="0" minimum_distance="6"/>
         <LL:Projection dst_population="STN">
             <LL:Annotation>
                 <SpineCreator>
@@ -272,9 +272,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.05" seed="123">
+                <FixedProbabilityConnection probability="0.05" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="GPe to STN Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -363,7 +363,7 @@
                 <FixedValue value="-16"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
     </LL:Population>
     <LL:Population>
         <LL:Annotation>
@@ -407,7 +407,7 @@
                 <FixedValue value="-16"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
     </LL:Population>
     <LL:Population>
         <LL:Annotation>
@@ -451,7 +451,7 @@
                 <FixedValue value="-14"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
     </LL:Population>
     <LL:Population>
         <LL:Annotation>
@@ -470,7 +470,7 @@
             </SpineCreator>
         </LL:Annotation>
         <LL:Neuron name="Background" size="25" url="SpikeSource"/>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="D1 MSN">
             <LL:Annotation>
                 <SpineCreator>
@@ -478,7 +478,7 @@
                     <start x="-2.6421" y="8.59598"/>
                     <curves>
                         <curve>
-                            <C1 xpos="-2.28546" ypos="8.03189"/>
+                            <C1 xpos="-2.49678" ypos="7.51427"/>
                             <C2 xpos="-2.05952" ypos="8.10331"/>
                             <end xpos="-2.07901" ypos="7.10536"/>
                         </curve>
@@ -486,7 +486,7 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
                         <UniformDistribution minimum="9" maximum="12" seed="151"/>
                     </Delay>
@@ -549,9 +549,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                        <UniformDistribution minimum="9" maximum="12" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="Background to FSI Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -612,9 +612,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                        <UniformDistribution minimum="9" maximum="12" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="Background to D2 MSN Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -664,7 +664,7 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="4.80361"/>
+                <xPos value="4.81278"/>
                 <yPos value="8.40361"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
@@ -678,15 +678,15 @@
             </SpineCreator>
         </LL:Annotation>
         <LL:Neuron name="BackgroundSTN" size="2" url="SpikeSource"/>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="STN">
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="4" showlabel="0"/>
-                    <start x="4.85806" y="7.89548"/>
+                    <start x="4.86728" y="7.89548"/>
                     <curves>
                         <curve>
-                            <C1 xpos="4.85806" ypos="5.70485"/>
+                            <C1 xpos="4.86728" ypos="5.70485"/>
                             <C2 xpos="6.18124" ypos="8.98751"/>
                             <end xpos="6.18124" ypos="6.86171"/>
                         </curve>
@@ -694,9 +694,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.2" seed="123">
+                <FixedProbabilityConnection probability="0.2" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="123"/>
+                        <UniformDistribution minimum="9" maximum="12" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="BackgroundSTN to STN Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
@@ -783,7 +783,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="FSI PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -799,9 +799,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.05" seed="123">
+                <FixedProbabilityConnection probability="0.05" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="GPetoAny G to FSI PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -831,9 +831,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.25" seed="123">
+                <FixedProbabilityConnection probability="0.25" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="GPetoAny G to GPe PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -863,9 +863,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.25" seed="123">
+                <FixedProbabilityConnection probability="0.25" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="GPetoAny G to SNr PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -921,7 +921,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="FSI PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -937,9 +937,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="FSItoAny G to FSI PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -969,9 +969,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="FSItoAny G to D1 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1001,9 +1001,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="FSItoAny G to D2 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1040,7 +1040,7 @@
                 <FixedValue value="0"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="FSI">
             <LL:Annotation>
                 <SpineCreator>
@@ -1123,7 +1123,7 @@
                 <FixedValue value="0"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="GPe">
             <LL:Annotation>
                 <SpineCreator>
@@ -1206,7 +1206,7 @@
                 <FixedValue value="0"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="SNr">
             <LL:Annotation>
                 <SpineCreator>
@@ -1308,7 +1308,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="GPe PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -1324,9 +1324,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D2toGPe G to GPe PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1382,7 +1382,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="SNr PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -1398,9 +1398,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.15" seed="123">
+                <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="5" maximum="7" seed="123"/>
+                        <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D1toSNr G to SNr PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1456,7 +1456,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="SNr PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -1472,9 +1472,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.25" seed="123">
+                <FixedProbabilityConnection probability="0.25" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="SNrtoSNr G to SNr PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1530,7 +1530,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="D1 MSN PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -1546,9 +1546,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D1toStr G to D1 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1578,9 +1578,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D1toStr G to D2 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1617,7 +1617,7 @@
                 <FixedValue value="0"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="D1 MSN">
             <LL:Annotation>
                 <SpineCreator>
@@ -1719,7 +1719,7 @@
                 </OneToOneConnection>
             </LL:Input>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="D1 MSN PT">
             <LL:Annotation>
                 <SpineCreator>
@@ -1735,9 +1735,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D2toStr G to D1 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1767,9 +1767,9 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.1" seed="123">
+                <FixedProbabilityConnection probability="0.1" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="2" maximum="3" seed="123"/>
+                        <UniformDistribution minimum="2" maximum="3" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="D2toStr G to D2 MSN PT Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
@@ -1806,7 +1806,7 @@
                 <FixedValue value="0"/>
             </Property>
         </LL:Neuron>
-        <Layout url="none.xml" seed="123" minimum_distance="0"/>
+        <Layout url="none.xml" seed="0" minimum_distance="0"/>
         <LL:Projection dst_population="D2 MSN">
             <LL:Annotation>
                 <SpineCreator>
