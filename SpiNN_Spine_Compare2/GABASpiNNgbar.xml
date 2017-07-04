@@ -26,7 +26,7 @@
     </OnImpulse>
    </Regime>
    <Alias name="I_gaba" dimension="?">
-    <MathInline>g_gaba*(v-E_gaba)</MathInline>
+    <MathInline>g_gaba*(E_gaba-v)</MathInline>
    </Alias>
    <StateVariable name="g_gaba" dimension="uS"/>
   </Dynamics>
