@@ -127,8 +127,8 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="-0.915484"/>
-                <yPos value="8.49226"/>
+                <xPos value="-0.880129"/>
+                <yPos value="8.5064"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
                 <colour red="170" green="170" blue="0"/>
@@ -151,8 +151,8 @@
                         <curves>
                             <curve>
                                 <C1 xpos="-1.40955" ypos="7.55748"/>
-                                <C2 xpos="-1.59155" ypos="7.7994"/>
-                                <end xpos="-1.40321" ypos="7.99248"/>
+                                <C2 xpos="-1.55619" ypos="7.81362"/>
+                                <end xpos="-1.36785" ypos="8.0067"/>
                             </curve>
                         </curves>
                     </SpineCreator>
@@ -169,10 +169,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="0" showlabel="0"/>
-                    <start x="-0.508673" y="7.99248"/>
+                    <start x="-0.473313" y="8.0067"/>
                     <curves>
                         <curve>
-                            <C1 xpos="-0.510797" ypos="7.34694"/>
+                            <C1 xpos="-0.475437" ypos="7.36116"/>
                             <C2 xpos="-0.398015" ypos="6.64947"/>
                             <end xpos="-0.809365" ypos="6.63436"/>
                         </curve>
@@ -181,7 +181,7 @@
             </LL:Annotation>
             <LL:Synapse>
                 <ConnectionList>
-                    <BinaryFile file_name="conn__to__syn0.bin" num_connections="155659" explicit_delay_flag="1" packed_data="true"/>
+                    <BinaryFile file_name="conn_D1toStr_G_to_D1_MSN_syn0.bin" num_connections="155659" explicit_delay_flag="1" packed_data="true"/>
                 </ConnectionList>
                 <LL:WeightUpdate name="D1toStr G to D1 MSN Synapse 0 weight_update" url="ImpulseWUPT.xml" input_src_port="g" input_dst_port="in">
                     <Property name="g" dimension="?">
