@@ -461,7 +461,7 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.05" seed="0">
+                <FixedProbabilityConnection probability="0.25" seed="0">
                     <Delay dimension="ms">
                         <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
