@@ -488,7 +488,7 @@
             <LL:Synapse>
                 <FixedProbabilityConnection probability="0.15" seed="0">
                     <Delay dimension="ms">
-                        <UniformDistribution minimum="9" maximum="12" seed="151"/>
+                        <UniformDistribution minimum="9" maximum="12" seed="0"/>
                     </Delay>
                 </FixedProbabilityConnection>
                 <LL:WeightUpdate name="Background to D1 MSN Synapse 0 weight_update" url="Static_weight.xml" input_src_port="spike" input_dst_port="spike_rcv">
