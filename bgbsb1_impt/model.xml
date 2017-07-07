@@ -1295,8 +1295,8 @@
                         <curves>
                             <curve>
                                 <C1 xpos="4.38101" ypos="5.02089"/>
-                                <C2 xpos="4.53331" ypos="5.82075"/>
-                                <end xpos="4.52125" ypos="4.84436"/>
+                                <C2 xpos="4.53291" ypos="5.82116"/>
+                                <end xpos="4.52085" ypos="4.84477"/>
                             </curve>
                         </curves>
                     </SpineCreator>
@@ -1313,10 +1313,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="0" showlabel="0"/>
-                    <start x="4.5804" y="3.84381"/>
+                    <start x="4.58" y="3.84422"/>
                     <curves>
                         <curve>
-                            <C1 xpos="4.57991" ypos="3.22512"/>
+                            <C1 xpos="4.57951" ypos="3.22553"/>
                             <C2 xpos="3.70583" ypos="3.7317"/>
                             <end xpos="3.67691" ypos="3.14203"/>
                         </curve>
