@@ -272,7 +272,7 @@
                 </SpineCreator>
             </LL:Annotation>
             <LL:Synapse>
-                <FixedProbabilityConnection probability="0.05" seed="0">
+                <FixedProbabilityConnection probability="0.25" seed="0">
                     <Delay dimension="ms">
                         <UniformDistribution minimum="5" maximum="7" seed="0"/>
                     </Delay>
@@ -1066,7 +1066,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="FSI PT to FSI Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="FSI PT to FSI Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1149,7 +1149,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="GPe PT to GPe Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="GPe PT to GPe Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1232,7 +1232,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="SNr PT to SNr Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="SNr PT to SNr Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1271,8 +1271,8 @@
     <LL:Population>
         <LL:Annotation>
             <SpineCreator>
-                <xPos value="4.4217"/>
-                <yPos value="4.24122"/>
+                <xPos value="4.59593"/>
+                <yPos value="4.35126"/>
                 <animSpeed value="0.2"/>
                 <aspectRatio value="1.66667"/>
                 <colour red="255" green="170" blue="0"/>
@@ -1295,8 +1295,8 @@
                         <curves>
                             <curve>
                                 <C1 xpos="4.38101" ypos="5.02089"/>
-                                <C2 xpos="4.3592" ypos="5.71059"/>
-                                <end xpos="4.34714" ypos="4.7342"/>
+                                <C2 xpos="4.53331" ypos="5.82075"/>
+                                <end xpos="4.52125" ypos="4.84436"/>
                             </curve>
                         </curves>
                     </SpineCreator>
@@ -1313,10 +1313,10 @@
             <LL:Annotation>
                 <SpineCreator>
                     <DrawOptions style="0" showlabel="0"/>
-                    <start x="4.40629" y="3.73365"/>
+                    <start x="4.5804" y="3.84381"/>
                     <curves>
                         <curve>
-                            <C1 xpos="4.4058" ypos="3.11496"/>
+                            <C1 xpos="4.57991" ypos="3.22512"/>
                             <C2 xpos="3.70583" ypos="3.7317"/>
                             <end xpos="3.67691" ypos="3.14203"/>
                         </curve>
@@ -1643,7 +1643,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D1 MSN PT to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="D1 MSN PT to D1 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
@@ -1832,7 +1832,7 @@
                         <FixedValue value="0"/>
                     </Property>
                 </LL:WeightUpdate>
-                <LL:PostSynapse name="D2 MSN PT to D2 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_AMPA">
+                <LL:PostSynapse name="D2 MSN PT to D2 MSN Synapse 0 postsynapse" url="GABASpiNN.xml" input_src_port="g" input_dst_port="g" output_src_port="I_gaba" output_dst_port="I_GABA">
                     <Property name="tau_gaba" dimension="ms">
                         <FixedValue value="4"/>
                     </Property>
