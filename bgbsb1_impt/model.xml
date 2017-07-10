@@ -79,7 +79,7 @@
                         <FixedValue value="0.05"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="64"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -142,7 +142,7 @@
                         <FixedValue value="0.05"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="64"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -290,7 +290,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="256"/>
                     </Property>
                     <Property name="g_bar" dimension="uS">
                         <FixedValue value="0.1429"/>
@@ -715,7 +715,7 @@
                         <FixedValue value="0.3"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="256"/>
+                        <FixedValue value="512"/>
                     </Property>
                     <Property name="g_ampa" dimension="uS">
                         <FixedValue value="0"/>
@@ -1074,7 +1074,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="256"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1157,7 +1157,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="2048"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1240,7 +1240,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="256"/>
+                        <FixedValue value="2048"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1651,7 +1651,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="1024"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
@@ -1840,7 +1840,7 @@
                         <FixedValue value="-80"/>
                     </Property>
                     <Property name="g_limit" dimension="uS">
-                        <FixedValue value="1000"/>
+                        <FixedValue value="1024"/>
                     </Property>
                     <Property name="g_gaba" dimension="uS">
                         <FixedValue value="0"/>
