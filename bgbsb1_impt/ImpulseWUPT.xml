@@ -4,10 +4,18 @@
   <Annotation>
    <SpineCreator/>
   </Annotation>
-  <Dynamics initial_regime="Reset">
+  <Dynamics initial_regime="SumAndEmit">
    <Regime name="SumAndEmit">
-    <OnCondition target_regime="Reset">
+    <OnCondition target_regime="SumAndEmit">
      <ImpulseOut port="g"/>
+     <Trigger>
+      <MathInline>g>0.00001</MathInline>
+     </Trigger>
+    </OnCondition>
+    <OnCondition target_regime="SumAndEmit">
+     <StateAssignment variable="g">
+      <MathInline>0</MathInline>
+     </StateAssignment>
      <Trigger>
       <MathInline>g>0.00001</MathInline>
      </Trigger>
@@ -17,16 +25,6 @@
       <MathInline>g+in</MathInline>
      </StateAssignment>
     </OnImpulse>
-   </Regime>
-   <Regime name="Reset">
-    <OnCondition target_regime="SumAndEmit">
-     <StateAssignment variable="g">
-      <MathInline>0</MathInline>
-     </StateAssignment>
-     <Trigger>
-      <MathInline>1</MathInline>
-     </Trigger>
-    </OnCondition>
    </Regime>
    <StateVariable name="g" dimension="?"/>
   </Dynamics>
