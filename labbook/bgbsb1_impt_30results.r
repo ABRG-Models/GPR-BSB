@@ -5,19 +5,75 @@ source('./bootstrap_functions.r')
 # spineml_D1 = c(3087, 3074, 3297, 3117, 3300) # manually collected data
 spineml_D1_tmp <- read.csv (file="./results/bgbsb1_impt/d1spikes.csv", header=FALSE, sep=",");
 spineml_D1 <- spineml_D1_tmp$V1;
-spinnaker_D1 = c(3890, 2656, 3767, 3826, 2876)
+
 
 spineml_STN_tmp <- read.csv (file="./results/bgbsb1_impt/stnspikes.csv", header=FALSE, sep=",");
 spineml_STN <- spineml_STN_tmp$V1;
-spinnaker_STN = c(1066,	1051,	1072,	1036,	1054)
+
 
 spineml_GPe_tmp <- read.csv (file="./results/bgbsb1_impt/gpespikes.csv", header=FALSE, sep=",");
 spineml_GPe <- spineml_GPe_tmp$V1;
-spinnaker_GPe = c(8157,	8210,	8201,	8145,	8226)
+
 
 spineml_SNr_tmp <- read.csv (file="./results/bgbsb1_impt/snrspikes.csv", header=FALSE, sep=",");
 spineml_SNr <- spineml_SNr_tmp$V1;
-spinnaker_SNr = c(3404,	3504,	3527,	3510,	3508)
+
+
+
+spinnaker_D1_tmp <- read.csv (file="./results/spinnaker1ch/msnd1spikearray.csv", header=FALSE, sep=",");
+spinnaker_D1 <- spinnaker_D1_tmp$V1;
+
+
+spinnaker_STN_tmp <- read.csv (file="./results/spinnaker1ch/stnspikearray.csv", header=FALSE, sep=",");
+spinnaker_STN <- spinnaker_STN_tmp$V1;
+
+
+spinnaker_GPe_tmp <- read.csv (file="./results/spinnaker1ch/gpespikearray.csv", header=FALSE, sep=",");
+spinnaker_GPe <- spinnaker_GPe_tmp$V1;
+
+
+spinnaker_SNr_tmp <- read.csv (file="./results/spinnaker1ch/snrspikearray.csv", header=FALSE, sep=",");
+spinnaker_SNr <- spinnaker_SNr_tmp$V1;
+
+print ("***********  Means/medians  *************")
+
+D1mean <- b.mean(spineml_D1, 256)
+STNmean <- b.mean(spineml_STN, 256)
+GPemean <- b.mean(spineml_GPe, 256)
+SNrmean <- b.mean(spineml_SNr, 256)
+print (sprintf ("SpineML based model, D1 mean: %f spikes with stderr %f", mean(spineml_D1), D1mean$std.err))
+print (sprintf ("SpineML based model, STN mean: %f spikes with stderr %f", mean(spineml_STN), STNmean$std.err))
+print (sprintf ("SpineML based model, GPe mean: %f spikes with stderr %f", mean(spineml_GPe), GPemean$std.err))
+print (sprintf ("SpineML based model, SNr mean: %f spikes with stderr %f", mean(spineml_SNr), SNrmean$std.err))
+
+D1mean <- b.mean(spinnaker_D1, 256)
+STNmean <- b.mean(spinnaker_STN, 256)
+GPemean <- b.mean(spinnaker_GPe, 256)
+SNrmean <- b.mean(spinnaker_SNr, 256)
+print (sprintf ("SpiNNaker model, D1 mean: %f spikes with stderr %f", mean(spinnaker_D1), D1mean$std.err))
+print (sprintf ("SpiNNaker model, STN mean: %f spikes with stderr %f", mean(spinnaker_STN), STNmean$std.err))
+print (sprintf ("SpiNNaker model, GPe mean: %f spikes with stderr %f", mean(spinnaker_GPe), GPemean$std.err))
+print (sprintf ("SpiNNaker model, SNr mean: %f spikes with stderr %f", mean(spinnaker_SNr), SNrmean$std.err))
+
+
+D1median <- b.median(impt_D1, 256)
+STNmedian <- b.median(impt_STN, 256)
+GPemedian <- b.median(impt_GPe, 256)
+SNrmedian <- b.median(impt_SNr, 256)
+print (sprintf ("SpineML based model, D1 median: %f spikes with stderr %f", median(impt_D1), D1median$std.err))
+print (sprintf ("SpineML based model, STN median: %f spikes with stderr %f", median(impt_STN), STNmedian$std.err))
+print (sprintf ("SpineML based model, GPe median: %f spikes with stderr %f", median(impt_GPe), GPemedian$std.err))
+print (sprintf ("SpineML based model, SNr median: %f spikes with stderr %f", median(impt_SNr), SNrmedian$std.err))
+
+D1median <- b.median(spinnaker_D1, 256)
+STNmedian <- b.median(spinnaker_STN, 256)
+GPemedian <- b.median(spinnaker_GPe, 256)
+SNrmedian <- b.median(spinnaker_SNr, 256)
+print (sprintf ("SpiNNaker model, D1 median: %f spikes with stderr %f", median(spinnaker_D1), D1median$std.err))
+print (sprintf ("SpiNNaker model, STN median: %f spikes with stderr %f", median(spinnaker_STN), STNmedian$std.err))
+print (sprintf ("SpiNNaker model, GPe median: %f spikes with stderr %f", median(spinnaker_GPe), GPemedian$std.err))
+print (sprintf ("SpiNNaker model, SNr median: %f spikes with stderr %f", median(spinnaker_SNr), SNrmedian$std.err))
+
 
 print ("***********  Difference/Stderr  *************")
 
