@@ -1,0 +1,9 @@
+<LogReport>
+	<AnalogLog>
+		<LogFile>FSI_v_long_log.bin</LogFile>
+		<LogFileType>binary</LogFileType>
+		<LogEndTime>5000.000000</LogEndTime>
+		<LogAll size="1" headings="v" type="double" dims=""/>
+		<TimeStep dt="0.010000"/>
+	</AnalogLog>
+</LogReport>
