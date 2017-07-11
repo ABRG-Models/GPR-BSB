@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
+ <ComponentClass name="GABASpiNN" type="postsynapse">
+  <Annotation>
+   <SpineCreator>
+    <Text key="I_gaba"></Text>
+   </SpineCreator>
+  </Annotation>
+  <Dynamics initial_regime="Current">
+   <Regime name="Current">
+    <TimeDerivative variable="g_gaba">
+     <MathInline>-g_gaba/tau_gaba</MathInline>
+    </TimeDerivative>
+    <OnCondition target_regime="Current">
+     <StateAssignment variable="g_gaba">
+      <MathInline>g_limit</MathInline>
+     </StateAssignment>
+     <Trigger>
+      <MathInline>g_gaba>g_limit</MathInline>
+     </Trigger>
+    </OnCondition>
+    <OnImpulse target_regime="Current" src_port="g">
+     <StateAssignment variable="g_gaba">
+      <MathInline>g_gaba + g</MathInline>
+     </StateAssignment>
+    </OnImpulse>
+   </Regime>
+   <Alias name="I_gaba" dimension="?">
+    <MathInline>g_gaba*(E_gaba-v)</MathInline>
+   </Alias>
+   <StateVariable name="g_gaba" dimension="uS"/>
+  </Dynamics>
+  <AnalogReducePort name="v" reduce_op="+" dimension="mV"/>
+  <AnalogSendPort name="I_gaba"/>
+  <AnalogSendPort name="g_gaba"/>
+  <ImpulseReceivePort name="g" dimension="?"/>
+  <Parameter name="tau_gaba" dimension="ms"/>
+  <Parameter name="E_gaba" dimension="mV"/>
+  <Parameter name="g_limit" dimension="uS"/>
+ </ComponentClass>
+</SpineML>

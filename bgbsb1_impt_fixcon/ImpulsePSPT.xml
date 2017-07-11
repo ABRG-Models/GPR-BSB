@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<SpineML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.shef.ac.uk/SpineMLComponentLayer" xsi:schemaLocation="http://www.shef.ac.uk/SpineMLComponentLayer SpineMLComponentLayer.xsd">
+ <ComponentClass name="ImpulsePSPT" type="postsynapse">
+  <Annotation>
+   <SpineCreator/>
+  </Annotation>
+  <Dynamics initial_regime="SumAndEmit">
+   <Regime name="SumAndEmit">
+    <OnCondition target_regime="SumAndEmit">
+     <ImpulseOut port="g"/>
+     <Trigger>
+      <MathInline>g>0.00001</MathInline>
+     </Trigger>
+    </OnCondition>
+    <OnCondition target_regime="SumAndEmit">
+     <StateAssignment variable="g">
+      <MathInline>0</MathInline>
+     </StateAssignment>
+     <Trigger>
+      <MathInline>g>0.00001</MathInline>
+     </Trigger>
+    </OnCondition>
+    <OnImpulse target_regime="SumAndEmit" src_port="in">
+     <StateAssignment variable="g">
+      <MathInline>g+in</MathInline>
+     </StateAssignment>
+    </OnImpulse>
+   </Regime>
+   <StateVariable name="g" dimension="?"/>
+  </Dynamics>
+  <ImpulseReceivePort name="in" dimension="?"/>
+  <ImpulseSendPort name="g"/>
+ </ComponentClass>
+</SpineML>
