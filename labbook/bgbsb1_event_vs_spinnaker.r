@@ -57,14 +57,14 @@ print (sprintf ("SpiNNaker model, GPe mean: %f spikes with stderr %f", mean(spin
 print (sprintf ("SpiNNaker model, SNr mean: %f spikes with stderr %f", mean(spinnaker_SNr), SNrmean$std.err))
 
 
-D1median <- b.median(impt_D1, 256)
-STNmedian <- b.median(impt_STN, 256)
-GPemedian <- b.median(impt_GPe, 256)
-SNrmedian <- b.median(impt_SNr, 256)
-print (sprintf ("SpineML based model, D1 median: %f spikes with stderr %f", median(impt_D1), D1median$std.err))
-print (sprintf ("SpineML based model, STN median: %f spikes with stderr %f", median(impt_STN), STNmedian$std.err))
-print (sprintf ("SpineML based model, GPe median: %f spikes with stderr %f", median(impt_GPe), GPemedian$std.err))
-print (sprintf ("SpineML based model, SNr median: %f spikes with stderr %f", median(impt_SNr), SNrmedian$std.err))
+D1median <- b.median(spineml_D1, 256)
+STNmedian <- b.median(spineml_STN, 256)
+GPemedian <- b.median(spineml_GPe, 256)
+SNrmedian <- b.median(spineml_SNr, 256)
+print (sprintf ("SpineML based model, D1 median: %f spikes with stderr %f", median(spineml_D1), D1median$std.err))
+print (sprintf ("SpineML based model, STN median: %f spikes with stderr %f", median(spineml_STN), STNmedian$std.err))
+print (sprintf ("SpineML based model, GPe median: %f spikes with stderr %f", median(spineml_GPe), GPemedian$std.err))
+print (sprintf ("SpineML based model, SNr median: %f spikes with stderr %f", median(spineml_SNr), SNrmedian$std.err))
 
 D1median <- b.median(spinnaker_D1, 256)
 STNmedian <- b.median(spinnaker_STN, 256)
