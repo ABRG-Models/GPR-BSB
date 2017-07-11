@@ -99,7 +99,7 @@ b.studentized_ttest <- function (zdata, ydata, B) {
     # Compute the observed value of the studentised statistic (using
     # separate variances, rather than a pooled variance):
     tobs <- (zmean - ymean) / ((obsvary/m + obsvarz/n)^0.5)
-    print(sprintf("tobs=%f and xmean=%f",tobs,xmean))
+    #print(sprintf("tobs=%f and xmean=%f",tobs,xmean))
 
     # Create shifted distributions; shifted by group mean and combined mean:
     ztilda <- zdata - mean(zdata) + xmean
