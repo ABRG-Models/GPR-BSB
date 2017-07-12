@@ -90,6 +90,27 @@ print (sprintf ("For GPespinn/spine, difference is %f, standard error estimate: 
 SNrdiff <- b.diffste (spinnaker_SNr, spineml_SNr, 256)
 print (sprintf ("For SNrspinn/spine, difference is %f, standard error estimate: %f", SNrdiff$meandiff, SNrdiff$stderr))
 
+print ("***********  Two sample t-test diff of means  *************")
+
+
+D1_ttest <- b.ttest(spinnaker_D1,spineml_D1,10000)
+b.showsiglev (D1_ttest, "SpiNNaker vs SpineML D1 population")
+
+D2_ttest <- b.ttest(spinnaker_D2,spineml_D2,10000)
+b.showsiglev (D2_ttest, "SpiNNaker vs SpineML D2 population")
+
+FSI_ttest <- b.ttest(spinnaker_FSI,spineml_FSI,10000)
+b.showsiglev (FSI_ttest, "SpiNNaker vs SpineML FSI population")
+
+STN_ttest <- b.ttest(spinnaker_STN,spineml_STN,10000)
+b.showsiglev (STN_ttest, "SpiNNaker vs SpineML STN population")
+
+GPe_ttest <- b.ttest(spinnaker_GPe,spineml_GPe,10000)
+b.showsiglev (GPe_ttest, "SpiNNaker vs SpineML GPe population")
+
+SNr_ttest <- b.ttest(spinnaker_SNr,spineml_SNr,10000)
+b.showsiglev (SNr_ttest, "SpiNNaker vs SpineML SNr population")
+
 print ("***********  Studentized t-test  *************")
 
 D1_ttest <- b.studentized_ttest(spinnaker_D1,spineml_D1,10000)
