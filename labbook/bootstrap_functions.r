@@ -114,16 +114,6 @@ b.ttest_studentized <- function(zdata_, ydata_, B) {
     list(asl=asl, minasl=minasl)
 }
 
-# Utility function to display Achieved Significance Level (ASL) result.
-b.showsiglev <- function (asl, tag) {
-    if (asl$asl == 0) {
-        msg <- sprintf ("Achieved significance level for %s < %f", tag, asl$minasl)
-    } else {
-        msg <- sprintf ("Achieved significance level for %s = %f", tag, asl$asl)
-    }
-    print(msg)
-}
-
 # Compute a bootstrapped two sample t statistic as per algorithm 16.2
 # in Efron & Tibshirani.
 # zdata is treatment; ydata is control.
@@ -186,6 +176,16 @@ b.ttest_equalityofmeans <- function (zdata_, ydata_, B) {
     asl <- numbeyond/B
     minasl <- 1/B # Smallest possible achieved significance level in case asl==0
     list(asl=asl, minasl=minasl,txstar=txstar)
+}
+
+                                        # Utility function to display Achieved Significance Level (ASL) result.
+b.showsiglev <- function (asl, tag) {
+    if (asl$asl == 0) {
+        msg <- sprintf ("Achieved significance level for %s < %f", tag, asl$minasl)
+    } else {
+        msg <- sprintf ("Achieved significance level for %s = %f", tag, asl$asl)
+    }
+    print(msg)
 }
 
 ## Efron & Tibshirani example mouse data, for comparison of methods.
