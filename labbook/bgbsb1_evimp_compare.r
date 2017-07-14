@@ -36,8 +36,8 @@ print (sprintf ("For FSI evbased/impulsebased, difference is %f, standard error 
 
 print ("***********  Studentized t-test  *************")
 
-D1_ttest <- b.studentized_ttest(evbased_D1,impt_D1,10000)
+D1_ttest <- b.ttest_equalityofmeans(evbased_D1,impt_D1,10000)
 b.showsiglev (D1_ttest, "Evbased vs Impulse based D1 population")
 
-FSI_ttest <- b.studentized_ttest(evbased_FSI,impt_FSI,10000)
+FSI_ttest <- b.ttest_equalityofmeans(evbased_FSI,impt_FSI,10000)
 b.showsiglev (FSI_ttest, "Evbased vs Impulse based FSI population")

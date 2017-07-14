@@ -44,7 +44,7 @@ b.diffste <- function(zdata, ydata, B) {
 # zdata and ydata are the two datasets. B is the number of bootstrap
 # replications to make to produce ystar and zstar. data2 is treatment,
 # data1 is control. The null hypothesis is that ydata and zdata are
-# drawn from the same distribution.
+# drawn from an identical distribution.
 b.ttest <- function(zdata_, ydata_, B) {
 
     # Ensure that the group which we name zdata is the larger one.
@@ -71,6 +71,49 @@ b.ttest <- function(zdata_, ydata_, B) {
     list(asl=asl, minasl=minasl)
 }
 
+
+# Studentized version of b.ttest. This again tests the null hypothesis that the
+# populations are identical.
+#
+# This implements Algorithm 16.1 with t(x) as given in Eq. 16.4.
+b.ttest_studentized <- function(zdata_, ydata_, B) {
+
+    # Ensure that the group which we name zdata is the larger one.
+    if (mean(zdata_) > mean(ydata_)) {
+        zdata = zdata_;
+        ydata = ydata_;
+    } else {
+        zdata = ydata_;
+        ydata = zdata_;
+    }
+
+    ymean <- mean(ydata)
+    zmean <- mean(zdata)
+    n <- length(zdata)
+    m <- length(ydata)
+
+    sigmabar <- ((sum((zdata - zmean)^2) + sum((ydata - ymean)^2))/(n + m - 2))^0.5
+
+    tobs = (zmean - ymean) / (sigmabar * (1/n + 1/m)^0.5)  # observed value of the statistic (difference of means)
+    print (sprintf("Observed value for studentized difference of means: %f", tobs))
+
+    xstar = c(ydata,zdata) # combine the data as if they were drawn from a single distribution
+    ystar <- lapply(1:B, function(i) sample(xstar, size=length(ydata), replace=T))
+    zstar <- lapply(1:B, function(i) sample(xstar, size=length(zdata), replace=T))
+
+    ymeans <- sapply(ystar, mean)
+    zmeans <- sapply(zstar, mean)
+
+    t <- (zmeans - ymeans) / (sigmabar * (1/n + 1/m)^0.5)
+
+    numbeyond <- sum(t>=tobs)
+
+    print (sprintf("numbeyond: %d out of %d",numbeyond, B))
+    asl <- numbeyond/B
+    minasl <- 1/B # Smallest possible achieved significance level in case asl==0
+    list(asl=asl, minasl=minasl)
+}
+
 # Utility function to display Achieved Significance Level (ASL) result.
 b.showsiglev <- function (asl, tag) {
     if (asl$asl == 0) {
@@ -84,7 +127,11 @@ b.showsiglev <- function (asl, tag) {
 # Compute a bootstrapped two sample t statistic as per algorithm 16.2
 # in Efron & Tibshirani.
 # zdata is treatment; ydata is control.
-b.studentized_ttest <- function (zdata_, ydata_, B) {
+#
+# This tests for equality of means, not whether the populations are identical
+# and may be used on distributions where the variances may not be equal.
+#
+b.ttest_equalityofmeans <- function (zdata_, ydata_, B) {
 
     # Ensure that the group which we name zdata is the larger one.
     if (mean(zdata_) > mean(ydata_)) {
@@ -141,14 +188,17 @@ b.studentized_ttest <- function (zdata_, ydata_, B) {
     list(asl=asl, minasl=minasl,txstar=txstar)
 }
 
-## Efron & Tibshirani example mouse data, for comparison of methods.
-#mouse.treatment=c(94,197,16,38,99,141,23)     # zdata
-#mouse.control=c(52,104,146,10,51,30,40,27,46) # ydata
-#mouseres0 <- b.diffste (mouse.treatment, mouse.control, 1400)
-#print (sprintf ("For mouse treatment/control, difference is %f, standard error estimate: %f", mouseres0$meandiff, mouseres0$stderr))
-## Reproduce result of algo 16.1 for the mouse data:
-#mouseres1 <- b.ttest(mouse.treatment, mouse.control, 1000)
-#b.showsiglev (mouseres1, "Mouse treatment/control basic ttest")
-## Reproduce result of Algo 16.2 for the mouse data:
-#mouseres2 <- b.studentized_ttest(mouse.treatment, mouse.control, 1000)
-#b.showsiglev(mouseres2, "Mouse example data")
+# Efron & Tibshirani example mouse data, for comparison of methods.
+mouse.treatment=c(94,197,16,38,99,141,23)     # zdata
+mouse.control=c(52,104,146,10,51,30,40,27,46) # ydata
+mouseres0 <- b.diffste (mouse.treatment, mouse.control, 1400)
+print (sprintf ("For mouse treatment/control, difference is %f, standard error estimate: %f", mouseres0$meandiff, mouseres0$stderr))
+# Reproduce result of algo 16.1 for the mouse data:
+mouseres1 <- b.ttest(mouse.treatment, mouse.control, 1000)
+b.showsiglev (mouseres1, "Mouse treatment/control basic ttest (16.1)")
+# Studentized version of algo 16.1:
+mouseres1p2 <- b.ttest_studentized(mouse.treatment, mouse.control, 1000)
+b.showsiglev (mouseres1p2, "Mouse treatment/control studentized ttest (16.1 + eqn 16.4)")
+# Reproduce result of Algo 16.2 for the mouse data:
+mouseres2 <- b.ttest <- equalityofmeans(mouse.treatment, mouse.control, 1000)
+b.showsiglev(mouseres2, "Mouse example data")

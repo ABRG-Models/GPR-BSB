@@ -39,14 +39,14 @@ print (sprintf ("For SNrspinn/spine, difference is %f, standard error estimate: 
 
 print ("***********  Studentized t-test  *************")
 
-D1_ttest <- b.studentized_ttest(spinnaker_D1,spineml_D1,10000)
+D1_ttest <- b.ttest_equalityofmeans(spinnaker_D1,spineml_D1,10000)
 b.showsiglev (D1_ttest, "SpiNNaker vs SpineML D1 population")
 
-STN_ttest <- b.studentized_ttest(spinnaker_STN,spineml_STN,10000)
+STN_ttest <- b.ttest_equalityofmeans(spinnaker_STN,spineml_STN,10000)
 b.showsiglev (STN_ttest, "SpiNNaker vs SpineML STN population")
 
-GPe_ttest <- b.studentized_ttest(spinnaker_GPe,spineml_GPe,10000)
+GPe_ttest <- b.ttest_equalityofmeans(spinnaker_GPe,spineml_GPe,10000)
 b.showsiglev (GPe_ttest, "SpiNNaker vs SpineML GPe population")
 
-SNr_ttest <- b.studentized_ttest(spinnaker_SNr,spineml_SNr,10000)
+SNr_ttest <- b.ttest_equalityofmeans(spinnaker_SNr,spineml_SNr,10000)
 b.showsiglev (SNr_ttest, "SpiNNaker vs SpineML SNr population")

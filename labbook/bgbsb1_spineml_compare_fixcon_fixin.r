@@ -83,20 +83,20 @@ print (sprintf ("For SNr evbased/impulsebased, difference is %f, standard error 
 
 print ("***********  Studentized t-test  *************")
 
-D1_ttest <- b.studentized_ttest(evbased_D1,impt_D1,10000)
+D1_ttest <- b.ttest_equalityofmeans(evbased_D1,impt_D1,10000)
 b.showsiglev (D1_ttest, "Evbased vs Impulse based D1 population")
 
-D2_ttest <- b.studentized_ttest(evbased_D2,impt_D2,10000)
+D2_ttest <- b.ttest_equalityofmeans(evbased_D2,impt_D2,10000)
 b.showsiglev (D2_ttest, "Evbased vs Impulse based D2 population")
 
-FSI_ttest <- b.studentized_ttest(evbased_FSI,impt_FSI,10000)
+FSI_ttest <- b.ttest_equalityofmeans(evbased_FSI,impt_FSI,10000)
 b.showsiglev (FSI_ttest, "Evbased vs Impulse based FSI population")
 
-STN_ttest <- b.studentized_ttest(evbased_STN,impt_STN,10000)
+STN_ttest <- b.ttest_equalityofmeans(evbased_STN,impt_STN,10000)
 b.showsiglev (STN_ttest, "Evbased vs Impulse based STN population")
 
-GPe_ttest <- b.studentized_ttest(evbased_GPe,impt_GPe,10000)
+GPe_ttest <- b.ttest_equalityofmeans(evbased_GPe,impt_GPe,10000)
 b.showsiglev (GPe_ttest, "Evbased vs Impulse based GPe population")
 
-SNr_ttest <- b.studentized_ttest(evbased_SNr,impt_SNr,10000)
+SNr_ttest <- b.ttest_equalityofmeans(evbased_SNr,impt_SNr,10000)
 b.showsiglev (SNr_ttest, "Evbased vs Impulse based SNr population")
