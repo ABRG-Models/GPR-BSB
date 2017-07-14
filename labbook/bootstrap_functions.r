@@ -188,17 +188,17 @@ b.ttest_equalityofmeans <- function (zdata_, ydata_, B) {
     list(asl=asl, minasl=minasl,txstar=txstar)
 }
 
-# Efron & Tibshirani example mouse data, for comparison of methods.
-mouse.treatment=c(94,197,16,38,99,141,23)     # zdata
-mouse.control=c(52,104,146,10,51,30,40,27,46) # ydata
-mouseres0 <- b.diffste (mouse.treatment, mouse.control, 1400)
-print (sprintf ("For mouse treatment/control, difference is %f, standard error estimate: %f", mouseres0$meandiff, mouseres0$stderr))
-# Reproduce result of algo 16.1 for the mouse data:
-mouseres1 <- b.ttest(mouse.treatment, mouse.control, 1000)
-b.showsiglev (mouseres1, "Mouse treatment/control basic ttest (16.1)")
-# Studentized version of algo 16.1:
-mouseres1p2 <- b.ttest_studentized(mouse.treatment, mouse.control, 1000)
-b.showsiglev (mouseres1p2, "Mouse treatment/control studentized ttest (16.1 + eqn 16.4)")
-# Reproduce result of Algo 16.2 for the mouse data:
-mouseres2 <- b.ttest <- equalityofmeans(mouse.treatment, mouse.control, 1000)
-b.showsiglev(mouseres2, "Mouse example data")
+## Efron & Tibshirani example mouse data, for comparison of methods.
+#mouse.treatment=c(94,197,16,38,99,141,23)     # zdata
+#mouse.control=c(52,104,146,10,51,30,40,27,46) # ydata
+#mouseres0 <- b.diffste (mouse.treatment, mouse.control, 1400)
+#print (sprintf ("For mouse treatment/control, difference is %f, standard error estimate: %f", mouseres0$meandiff, mouseres0$stderr))
+## Reproduce result of algo 16.1 for the mouse data:
+#mouseres1 <- b.ttest(mouse.treatment, mouse.control, 1000)
+#b.showsiglev (mouseres1, "Mouse treatment/control basic ttest (16.1)")
+## Studentized version of algo 16.1:
+#mouseres1p2 <- b.ttest_studentized(mouse.treatment, mouse.control, 1000)
+#b.showsiglev (mouseres1p2, "Mouse treatment/control studentized ttest (16.1 + eqn 16.4)")
+## Reproduce result of Algo 16.2 for the mouse data:
+#mouseres2 <- b.ttest_equalityofmeans(mouse.treatment, mouse.control, 1000)
+#b.showsiglev(mouseres2, "Mouse treatment/control equality of means test (16.2)")
