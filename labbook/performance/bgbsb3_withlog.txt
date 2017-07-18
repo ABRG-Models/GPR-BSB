@@ -1,0 +1,40 @@
+Run 1
+W16   267.992281       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 269.17
+Run 2
+W16   269.525514       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 270.74
+Run 3
+W16   269.706634       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 270.89
+Run 4
+W16   269.963376       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 271.26
+Run 5
+W16   270.147919       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 271.33
+Run 6
+W16   271.565381       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 272.86
+Run 7
+W16   271.016162       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 272.21
+Run 8
+W16   270.272184       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 271.46
+Run 9
+W16   269.165055       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 270.37
+Run 10
+W16   268.922348       FINISHED
+~/src/SpineML_2_BRAHMS
+Totalseconds: 270.20
