@@ -1,0 +1,42 @@
+These results are the output of findmaxg.m following a couple of runs
+of expt 0 of the bgbsb1_impt model
+--------------------------------------------------------------------
+
+D1_gaba_max =  1.6886
+D2_gaba_max =  1.6886
+FSI_gaba_max =  1.2042
+STN_gaba_max =  2.7942
+GPe_gaba_max =  3.6809
+SNr_gaba_max =  5.8623
+D1_ampa_max =  1.4259
+D2_ampa_max =  0.64164
+FSI_ampa_max =  0.32798
+STN_ampa_max =  0.31032
+GPe_ampa_max =  0.50219
+SNr_ampa_max =  0.42855
+
+D1_gaba_max =  2.3120
+D2_gaba_max =  2.3120
+FSI_gaba_max =  1.2042
+STN_gaba_max =  2.7942
+GPe_gaba_max =  3.6809
+SNr_gaba_max =  8.2154
+D1_ampa_max =  1.6294
+D2_ampa_max =  0.73321
+FSI_ampa_max =  0.33849
+STN_ampa_max =  0.38907
+GPe_ampa_max =  0.50219
+SNr_ampa_max =  0.42855
+
+D1_gaba_max =  2.3911
+D2_gaba_max =  2.3911
+FSI_gaba_max =  1.2042
+STN_gaba_max =  2.7942
+GPe_gaba_max =  3.6809
+SNr_gaba_max =  8.9933
+D1_ampa_max =  1.4230
+D2_ampa_max =  0.64033
+FSI_ampa_max =  0.34937
+STN_ampa_max =  0.31680
+GPe_ampa_max =  0.50219
+SNr_ampa_max =  0.42855
