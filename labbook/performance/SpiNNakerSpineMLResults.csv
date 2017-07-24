@@ -1,0 +1,7 @@
+Model,Posn,Pre,Exe,Post
+NoModel1,0,0,0,0
+SingleSpiNNaker,1,70.5,10,119.1
+SingleSpineML,2,0.036,3.5,0
+TripleSpiNNaker,3,191,10,574.7
+TripleSpineML,4,0.122,26.7,0
+NoModel2,5,0,0,0

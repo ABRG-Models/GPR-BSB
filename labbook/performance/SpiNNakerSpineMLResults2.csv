@@ -1,0 +1,7 @@
+Model,Posn,Exe
+NoModel1,0,0
+SingleSpiNNaker,1,80.5
+SingleSpineML,2,3.536
+TripleSpiNNaker,3,201
+TripleSpineML,4,26.822
+NoModel2,5,0
