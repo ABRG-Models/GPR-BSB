@@ -16,26 +16,30 @@ or, if building on a Mac, at:
 http://spineml.github.io/spinecreator/source/
 
 These pages explain how to build and install the SpineML toolchain
-from the four git repositories that it's hosted on; SpineCreator from:
+from the four git repositories that it's hosted on:
+
+1) SpineCreator from:
 
 https://github.com/SpineML/SpineCreator
 
-SpineML_PreFlight from:
-
-https://github.com/SpineML/SpineML_PreFlight
-
-SpineML_2BRAHMS from:
+2) SpineML_2BRAHMS from:
 
 https://github.com/SpineML/SpineML_2_BRAHMS
 
-and BRAHMS from:
+3) SpineML_PreFlight from:
+
+https://github.com/SpineML/SpineML_PreFlight
+
+4) BRAHMS from:
 
 https://github.com/BRAHMS-SystemML/brahms
 
 Installing from the master branches of the relevant git repositories
-should work, but in order to guarantee that the data in this project
+should work fine and will ensure you get the latest features and bugfixes,
+but in order to guarantee that the models in this project
 can be run in the future, it is possible to checkout and compile the repositories
-above with the branch tag "GPR-BSB-paper1".
+above with the branch tag "GPR-BSB-paper1", which will ensure that the code
+exactly matches that used to produce the results in the paper (current in submission, July 2017).
 
 ## Project layout
 
