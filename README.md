@@ -30,7 +30,7 @@ https://github.com/SpineML/SpineML_2_BRAHMS
 
 and BRAHMS from:
 
-https://github.com/SystemML_BRAHMS/brahms
+https://github.com/BRAHMS-SystemML/brahms
 
 Installing from the master branches of the relevant git repositories
 should work, but in order to guarantee that the data in this project
