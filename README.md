@@ -1,7 +1,43 @@
 # GPR-BSB
 
 SpineML implementations of the GPR-like models implemented by Basab Sen
-Bhattacharya and run on SpiNNaker.
+Bhattacharya et al. to run on SpiNNaker.
+
+## Toolchain to run these models
+
+The SpineML models in this repository can be opened with SpineCreator
+and executed with SpineML_2_BRAHMS. To do so, first install the tools
+as described at:
+
+http://spineml.github.io/spinecreator/sourcelin/
+
+or, if building on a Mac, at:
+
+http://spineml.github.io/spinecreator/source/
+
+These pages explain how to build and install the SpineML toolchain
+from the four git repositories that it's hosted on; SpineCreator from:
+
+https://github.com/SpineML/SpineCreator
+
+SpineML_PreFlight from:
+
+https://github.com/SpineML/SpineML_PreFlight
+
+SpineML_2BRAHMS from:
+
+https://github.com/SpineML/SpineML_2_BRAHMS
+
+and BRAHMS from:
+
+https://github.com/SystemML_BRAHMS/brahms
+
+Installing from the master branches of the relevant git repositories
+should work, but in order to guarantee that the data in this project
+can be run in the future, it is possible to checkout and compile the repositories
+above with the branch tag "GPR-BSB-paper1".
+
+## Project layout
 
 Individual Izhikevich neuron models, as specified in the paper are to be
 found in *_neuron directories.
