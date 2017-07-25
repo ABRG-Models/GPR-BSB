@@ -43,13 +43,16 @@ exactly matches the one I used to produce the results in the associated paper ("
 
 ## Project layout
 
-Individual Izhikevich neuron models, as specified in the paper are to be
-found in *_neuron directories.
+SpineML implementations of the individual Izhikevich neuron models, as 
+specified in the paper are to be
+found in neuron_models/\*_neuron directories. These models allow us to
+reproduce Figure 2 from the paper.
 
 bgbsb1/ is a single channel model of the BG. It has probabilistic
 connectivity and probabilistically determined connection delays. The
 seeds are all set to 0, so that a seed is automatically selected at
-runtime by SpinML_PreFLight each time the simulation is run.
+runtime by SpinML_PreFLight each time the simulation is run. This is the
+single channel event-based model referred to in the paper.
 
 bgbsb1_fixcon/ is a copy of bgbsb1 in which the randomised
 fixed-connectivity connections & delays have had their seeds fixed at
@@ -65,9 +68,6 @@ bgbsb3/ is the three channel model, where three instances of bgbsb1
 have been connected together with the same connectivity as for the
 SpiNNaker 3 channel model.
 
-neuron_models/ contains SpineML implementations of the individual
-neuron models used in the paper. It allows us to reproduce Figure 2.
-
 spinn_spine_compare/ contains some models with fixed connectivity
 which were used to verify whether the SpineML and SpiNNaker models
 were the same.
@@ -77,3 +77,7 @@ when comparing bgbsb1(_fixcon) and bgbsb1_impt(_fixcon).
 
 labbook/ contains some ipython/jupyter notebooks which were used
 during model development.
+
+labbook/performance contains the performance analysis code and results
+for running 1 second of simulation time for comparison with the
+SpiNNaker machine.
