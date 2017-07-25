@@ -35,11 +35,11 @@ https://github.com/SpineML/SpineML_PreFlight
 https://github.com/BRAHMS-SystemML/brahms
 
 Installing from the master branches of the relevant git repositories
-should work fine and will ensure you get the latest features and bugfixes,
-but in order to guarantee that the models in this project
+should work fine and will ensure you get the latest features and bugfixes.
+However, in order to guarantee that the models in this project
 can be run in the future, it is possible to checkout and compile the repositories
-above with the branch tag "GPR-BSB-paper1", which will ensure that the code
-exactly matches that used to produce the results in the paper (current in submission, July 2017).
+above with the branch tag "GPR-BSB-paper1". Using this branch will ensure that the SpineML toolchain
+exactly matches the one I used to produce the results in the associated paper ("Building a spiking neural network model of the Basal Ganglia on SpiNNaker", Bhattacharya et al., currently in submission, July 2017).
 
 ## Project layout
 
